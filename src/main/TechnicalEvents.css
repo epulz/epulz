@@ -6,21 +6,15 @@
   font-family: "Nunito Sans", sans-serif;
 }
 
-body {
-  background: #fff;
-}
-
 main {
   position: relative;
   overflow: hidden;
-  width: calc(min(90rem, 90%));
-  margin: 0 auto;
+  max-width: 100%;
   display: flex;
   align-items: center;
   min-height: 100vh;
   min-height: 100svh;
   column-gap: 3rem;
-  padding-block: min(20vh, 3rem);
 }
 
 .swiper {
@@ -99,6 +93,7 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 .swiper-slide-content .show-more {
   width: 3.125rem;
   display: flex;
@@ -114,9 +109,11 @@ main {
   transition: opacity 0.3s ease-in;
   margin-left: auto;
 }
+
 .swiper-slide-content .show-more:hover {
   background: #1184ac;
 }
+
 .swiper-slide-content .show-more svg {
   width: 1.75rem;
   color: #fff;
@@ -144,5 +141,47 @@ main {
 @media screen and (min-width: 93.75rem) {
   .swiper {
     width: 85%;
+  }
+}
+
+#backVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -4px -4px #8a2be2;
+  }
+  20% {
+    text-shadow: 4px -4px #8a2be2;
+  }
+  40% {
+    text-shadow: -4px 4px #8a2be2;
+  }
+  60% {
+    text-shadow: 4px 4px #8a2be2;
+  }
+  80% {
+    text-shadow: -4px -4px #8a2be2;
+  }
+  100% {
+    text-shadow: 4px -4px #8a2be2;
   }
 }

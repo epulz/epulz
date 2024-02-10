@@ -2,6 +2,7 @@
 import project from "../assets/Tech Events/Project_expo.jpg";
 import paper from "../assets/Tech Events/presentation.jpg";
 import coding from "../assets/Tech Events/coding_debug.jpg";
+import tech from "../assets/Tech Events/tech_events.mp4";
 import quiz from "../assets/Tech Events/Quiz.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
@@ -15,7 +16,9 @@ import "./TechnicalEvents.css";
 const TechnicalEvents = () => {
   return (
     <main>
+      <video autoPlay loop muted src={tech} id="backVideo"></video>
       <div className="swiper">
+        <h1 className="text-center">Technical Events</h1>
         <div className="swiper-wrapper">
           <Swiper
             effect={"coverflow"}
@@ -241,6 +244,12 @@ const TechnicalEvents = () => {
                 <div className="swiper-slide-content">
                   <div>
                     <h2>Quiz</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facilis repellat nihil sint, dolor non cum soluta
+                      excepturi corrupti ullam, hic ad? Laborum dolorum nostrum
+                      velit!
+                    </p>
                     <a
                       className="show-more"
                       href="https://en.wikipedia.org/wiki/Maldives"
@@ -261,12 +270,6 @@ const TechnicalEvents = () => {
                         />
                       </svg>
                     </a>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Facilis repellat nihil sint, dolor non cum soluta
-                      excepturi corrupti ullam, hic ad? Laborum dolorum nostrum
-                      velit!
-                    </p>
                   </div>
                 </div>
               </div>

@@ -91,6 +91,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
+  animation: glitch 1s infinite;
 }
 
 h4 {
@@ -104,22 +105,22 @@ h4 {
 
 @keyframes glitch {
   0% {
-    text-shadow: -2px -2px #8a2be2;
+    text-shadow: -4px -4px #8a2be2;
   }
   20% {
-    text-shadow: 2px -2px #8a2be2;
+    text-shadow: 4px -4px #8a2be2;
   }
   40% {
-    text-shadow: -2px 2px #8a2be2;
+    text-shadow: -4px 4px #8a2be2;
   }
   60% {
-    text-shadow: 2px 2px #8a2be2;
+    text-shadow: 4px 4px #8a2be2;
   }
   80% {
-    text-shadow: -2px -2px #8a2be2;
+    text-shadow: -4px -4px #8a2be2;
   }
   100% {
-    text-shadow: 2px -2px #8a2be2;
+    text-shadow: 4px -4px #8a2be2;
   }
 }
 
