@@ -1,7 +1,8 @@
 /* Navigation Styles */
 
-nav {
+.navbar {
   background-color: #000;
+  display: block;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
