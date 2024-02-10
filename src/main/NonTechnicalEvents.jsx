@@ -5,7 +5,7 @@ import coding from "../assets/Tech Events/coding_debug.jpg";
 import nontech from "../assets/Non Tech/non-tech.mp4";
 import quiz from "../assets/Tech Events/Quiz.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
@@ -32,8 +32,15 @@ const NonTechnicalEvents = () => {
               modifier: 1,
               slideShadows: true,
             }}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination]}
+            spaceBetween={30}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination, EffectCoverflow]}
             className="mySwiper"
           >
             <SwiperSlide>
