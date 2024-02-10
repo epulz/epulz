@@ -3,6 +3,7 @@ import { Hero } from "./main/Hero";
 import { ComingSoonPage } from "./main/ComingSoonPage";
 import { TechnicalEvents } from "./main/TechnicalEvents";
 import { NonTechnicalEvents } from "./main/NonTechnicalEvents";
+import { Footer } from "./main/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ComingSoonPage />
       <TechnicalEvents />
       <NonTechnicalEvents />
+      <Footer />
     </>
   );
 }

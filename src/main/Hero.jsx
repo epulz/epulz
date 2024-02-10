@@ -27,8 +27,8 @@ function Hero() {
     <div id="hero">
       <video autoPlay loop muted src={circuit} id="backVideo"></video>
       <div id="content">
-        <h3>Department of ECE</h3>
-        <h4>Proudly Presents</h4>
+        <h3 className="department">Department of ECE</h3>
+        <h4 className="present">Proudly Presents</h4>
         <div id="typed-strings">
           <h1 className="me-3">It's</h1>
           <h1 ref={h1Ref} id="typed-letters"></h1>

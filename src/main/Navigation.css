@@ -126,7 +126,7 @@
   clip-path: var(--slice-0);
 }
 
-.navbar .off-title-btn::after {
+.navbar .off-title-btn {
   animation: glitch 3s infinite;
   animation-timing-function: steps(2, end);
 }

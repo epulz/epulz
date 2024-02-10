@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-}
 
 #hero {
   max-width: 100%;
@@ -85,42 +79,36 @@
   }
 }
 
-h3 {
+.department {
   font-size: 2.5rem;
   color: white;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
-  animation: glitch 1s infinite;
+  animation: glitch 2s infinite;
 }
 
-h4 {
+.present {
   font-size: 2rem;
   color: white;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
-  animation: glitch 1s infinite;
+  animation: glitch 2s infinite;
 }
 
 @keyframes glitch {
-  0% {
-    text-shadow: -4px -4px #8a2be2;
-  }
-  20% {
-    text-shadow: 4px -4px #8a2be2;
-  }
-  40% {
-    text-shadow: -4px 4px #8a2be2;
-  }
-  60% {
-    text-shadow: 4px 4px #8a2be2;
-  }
+  0%,
   80% {
-    text-shadow: -4px -4px #8a2be2;
+    text-shadow: -1px -1px #8a2be2;
   }
+  20%,
   100% {
-    text-shadow: 4px -4px #8a2be2;
+    text-shadow: 1px -1px #8a2be2;
+  }
+  40%,
+  60% {
+    text-shadow: -1px 1px #8a2be2;
   }
 }
 

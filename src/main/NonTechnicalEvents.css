@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway:wght@700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
-}
-
-body {
-  background: #fff;
-}
 
 main {
   position: relative;
@@ -31,7 +21,7 @@ main {
   height: 35rem;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: self-start;
   box-shadow: 0.063rem 0.5rem 1.25rem rgba(0, 0, 0, 0.1216);
   border-bottom-left-radius: 0.5rem;
@@ -159,7 +149,7 @@ main {
   object-position: center;
 }
 
-h1 {
+.nontech-title {
   font-size: 3rem;
   color: white;
   font-weight: 700;

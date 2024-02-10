@@ -18,7 +18,7 @@ const NonTechnicalEvents = () => {
     <main>
       <video autoPlay loop muted src={nontech} id="backVideo"></video>
       <div className="swiper">
-        <h1 className="text-center">Non Technical Events</h1>
+        <h1 className="text-center nontech-title">Non Technical Events</h1>
         <div className="swiper-wrapper">
           <Swiper
             effect={"coverflow"}
