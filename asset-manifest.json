@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/epulz/static/css/main.00e830da.css",
+    "main.js": "/epulz/static/js/main.9ef174c7.js",
+    "index.html": "/epulz/index.html",
+    "main.00e830da.css.map": "/epulz/static/css/main.00e830da.css.map",
+    "main.9ef174c7.js.map": "/epulz/static/js/main.9ef174c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00e830da.css",
+    "static/js/main.9ef174c7.js"
+  ]
+}
