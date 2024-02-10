@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import menu from "../assets/menu-bar.png";
-import cross from "../assets/shape.png";
+import menu from "../assets/Nav/menu-bar.png";
+import cross from "../assets/Nav/shape.png";
 import "./Navigation.css";
 
 const Navigation = () => {

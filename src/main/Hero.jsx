@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "./Hero.css";
-import circuit from "../assets/circuit.mp4";
+import circuit from "../assets/Hero/circuit.mp4";
 
 function Hero() {
   const h1Ref = useRef(null);

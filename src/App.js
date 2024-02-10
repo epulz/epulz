@@ -1,6 +1,8 @@
-import { Navigation } from "./components/Navigation";
-import { Hero } from "./components/Hero";
-import { ComingSoonPage } from "./components/ComingSoonPage";
+import { Navigation } from "./main/Navigation";
+import { Hero } from "./main/Hero";
+import { ComingSoonPage } from "./main/ComingSoonPage";
+import { TechnicalEvents } from "./main/TechnicalEvents";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Navigation />
       <Hero />
       <ComingSoonPage />
+      <TechnicalEvents />
     </>
   );
 }
