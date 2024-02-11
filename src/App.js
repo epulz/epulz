@@ -4,6 +4,7 @@ import { ComingSoonPage } from "./main/ComingSoonPage";
 import { TechnicalEvents } from "./main/TechnicalEvents";
 import { NonTechnicalEvents } from "./main/NonTechnicalEvents";
 import { Others } from "./main/Others";
+import { Footer } from "./main/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <TechnicalEvents />
       <NonTechnicalEvents />
       <Others />
+      <Footer />
     </>
   );
 }

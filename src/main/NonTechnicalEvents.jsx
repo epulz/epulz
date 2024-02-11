@@ -34,7 +34,7 @@ const NonTechnicalEvents = () => {
             }}
             spaceBetween={30}
             autoplay={{
-              delay: 6000,
+              delay: 4000,
               disableOnInteraction: false,
             }}
             pagination={{
