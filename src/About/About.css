@@ -267,6 +267,7 @@ h1#staffHeading {
 .slider .dots li.active {
   width: 30px;
 }
+
 /* responsive */
 @media (max-width: 1200px) {
   .slider {
@@ -311,6 +312,7 @@ h1#staffHeading {
     border-radius: 20px;
     text-align: center;
   }
+
   #left {
     width: 100%;
     height: 50%;
@@ -323,6 +325,7 @@ h1#staffHeading {
     width: 100%;
     height: 50%;
   }
+
   #right h1 {
     color: white;
     font-size: 18px;
@@ -339,25 +342,30 @@ h1#staffHeading {
   #right p {
     text-align: center;
   }
+
   #profile {
     width: 100vw;
     height: 200vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 4%;
   }
+
   .gallery {
     width: 100%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
   }
+
   #lastText {
     display: none;
   }
+
   .box img {
     width: 150px;
     height: 150px;
@@ -367,9 +375,11 @@ h1#staffHeading {
     padding: 6px;
     transition: all 0.3s ease-in-out;
   }
+
   #respPara {
     display: none;
   }
+
   .slider {
     width: 1300px;
     max-width: 90vw;
@@ -400,7 +410,18 @@ h1#staffHeading {
     text-shadow: 0 0 20px rgb(172, 9, 172), 0 0 20px rgb(172, 9, 172),
       0 0 40px rgb(172, 9, 172), 0 0 60px rgb(172, 9, 172);
   }
-  h1#staffHeading {
+  #profile #staffHeading {
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-shadow: 0 0 20px rgb(172, 9, 172), 0 0 10px rgb(172, 9, 172),
+      0 0 20px rgb(172, 9, 172), 0 0 40px rgb(172, 9, 172);
+    margin-top: 40%;
+  }
+
+  #gallery-carousel h1 #staffHeading {
     text-align: center;
     font-family: "Protest Strike", sans-serif;
     letter-spacing: 2px;
@@ -408,5 +429,91 @@ h1#staffHeading {
     font-size: 20px;
     text-shadow: 0 0 20px rgb(172, 9, 172), 0 0 10px rgb(172, 9, 172),
       0 0 20px rgb(172, 9, 172), 0 0 40px rgb(172, 9, 172);
+    margin-top: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #gallery-carousel {
+    max-width: 100%;
+    height: 80vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 2rem !important;
+  }
+
+  #gallery-carousel .carousel {
+    margin-bottom: 20% !important;
+  }
+
+  #gallery-carousel .carousel .carousel-inner {
+    width: 40vh !important;
+    height: 30vh !important;
+  }
+
+  .slider-img {
+    height: 30vh !important;
+  }
+}
+
+/* Carousel */
+
+#gallery-carousel {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20rem 10rem;
+}
+
+#gallery-carousel .carousel {
+  border-radius: 2rem;
+  border: 7px solid purple;
+  box-shadow: 0 0 10px 2px #a515d9;
+  animation: glow 1s infinite;
+}
+
+#gallery-carousel .carousel .carousel-inner {
+  border-radius: 1.6rem;
+  width: 150vh;
+  height: 80vh;
+}
+
+.slider-img {
+  max-width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+#gallery-carousel .carousel .carousel-inner .carousel-item img {
+  animation: zoom 3s infinite linear;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1.2);
   }
 }

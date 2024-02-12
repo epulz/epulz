@@ -1,4 +1,5 @@
 import "./About.css";
+import { Gallery } from "./Gallery";
 import { HeroAbout } from "./HeroAbout";
 import { Profiles } from "./Profiles";
 
@@ -7,6 +8,7 @@ const About = () => {
     <section className="about-main">
       <HeroAbout />
       <Profiles />
+      <Gallery />
     </section>
   );
 };
