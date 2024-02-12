@@ -10,6 +10,11 @@
   visibility: visible;
 }
 
+.navbar .close {
+  transform: translateX(-100%);
+  visibility: hidden;
+}
+
 .navbar .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-size: 1.1rem;

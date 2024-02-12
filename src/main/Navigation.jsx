@@ -4,6 +4,7 @@ import cross from "../assets/Nav/shape.png";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useEffect } from "react";
 
 const Navigation = () => {
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
@@ -33,7 +34,9 @@ const Navigation = () => {
           </span>
         </button>
         <div
-          className={`offcanvas offcanvas-end ${isOffcanvasOpen ? "show" : ""}`}
+          className={`offcanvas offcanvas-end ${
+            isOffcanvasOpen ? "show" : "close"
+          }`}
           tabIndex={-1}
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -58,7 +61,11 @@ const Navigation = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
               <Link to="/epulz" onClick={closeOffcanvas}>
-                <li className="nav-item">
+                <li
+                  className="nav-item"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
                   <a
                     className="nav-link active mx-4"
                     aria-current="page"
@@ -69,7 +76,11 @@ const Navigation = () => {
                 </li>
               </Link>
               <Link to="/about" onClick={closeOffcanvas}>
-                <li className="nav-item">
+                <li
+                  className="nav-item"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
                   <a
                     className="nav-link active mx-4"
                     aria-current="page"
