@@ -1,22 +1,25 @@
+import {
+  BrowserRouter as Router,
+  Route,
+  Outlet,
+  Routes,
+} from "react-router-dom";
 import { Navigation } from "./main/Navigation";
-import { Hero } from "./main/Hero";
-import { ComingSoonPage } from "./main/ComingSoonPage";
-import { TechnicalEvents } from "./main/TechnicalEvents";
-import { NonTechnicalEvents } from "./main/NonTechnicalEvents";
-import { Others } from "./main/Others";
+import { Main } from "./main/Main";
 import { Footer } from "./main/Footer";
+import { About } from "./About/About";
 
 function App() {
   return (
-    <>
+    <Router>
       <Navigation />
-      <Hero />
-      <ComingSoonPage />
-      <TechnicalEvents />
-      <NonTechnicalEvents />
-      <Others />
+      <Routes>
+        <Route exact path="/epulz" element={<Main />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Outlet />
       <Footer />
-    </>
+    </Router>
   );
 }
 

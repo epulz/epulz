@@ -2,6 +2,7 @@
 import menu from "../assets/Nav/menu-bar.png";
 import cross from "../assets/Nav/shape.png";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -47,24 +48,29 @@ const Navigation = () => {
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end align-items-center flex-grow-1 pe-3">
-              <li className="nav-item">
-                <a
-                  className="nav-link active mx-4"
-                  aria-current="page"
-                  href="#"
-                >
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link active mx-4"
-                  aria-current="page"
-                  href="#"
-                >
-                  About
-                </a>
-              </li>
+              <Link to="/epulz">
+                <li className="nav-item">
+                  <a
+                    className="nav-link active mx-4"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Home
+                  </a>
+                </li>
+              </Link>
+              <Link to="/about">
+                <li className="nav-item">
+                  <a
+                    className="nav-link active mx-4"
+                    aria-current="page"
+                    href="#"
+                  >
+                    About
+                  </a>
+                </li>
+              </Link>
+
               <li className="nav-item">
                 <a
                   className="nav-link active mx-4"
