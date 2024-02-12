@@ -1,8 +1,13 @@
+import "./About.css";
+import { HeroAbout } from "./HeroAbout";
+import { Profiles } from "./Profiles";
+
 const About = () => {
   return (
-    <div>
-      <h1 style={{ marginTop: "7%" }}>Dinesh</h1>
-    </div>
+    <section className="about-main">
+      <HeroAbout />
+      <Profiles />
+    </section>
   );
 };
 

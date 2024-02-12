@@ -24,14 +24,14 @@
   margin: 2rem 0;
 }
 
-.card-container {
+.others .card-container {
   width: 350px;
   height: 500px;
   perspective: 1000px;
 }
 
 @media screen and (max-width: 768px) {
-  .card-container {
+  .others .card-container {
     width: 250px;
     height: 300px;
   }
@@ -138,20 +138,20 @@
   transform: rotateY(180deg);
 }
 
-.card-container:hover {
+.others .card-container:hover {
   transform: scale(1.1);
 }
-h1 {
+.others h1 {
   font-size: 160%;
 }
-p {
+.others p {
   font-size: 80%;
 }
-h1,
-p {
+.others h1,
+.others p {
   text-align: center;
 }
-.hr {
+.others .hr {
   border: 2px solid #a554af;
 }
 
@@ -474,7 +474,7 @@ p {
 }
 
 /* Buttons */
-button {
+.others button {
   position: relative;
   overflow: hidden;
   outline: none;
