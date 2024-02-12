@@ -106,7 +106,11 @@ const Navigation = () => {
                   </a>
                 </li>
               </Link>
-              <li className="nav-item">
+              <li
+                className="nav-item"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
                 <a
                   className="nav-link active mx-4"
                   aria-current="page"
@@ -126,6 +130,8 @@ const Navigation = () => {
                 <button
                   className="btn rounded-pill px-4 py-1 me-4 mb-3"
                   type="button"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
                 >
                   <strong>Register</strong>
                   <div id="container-stars">
