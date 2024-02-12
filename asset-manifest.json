@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/epulz/static/css/main.da5cfdec.css",
-    "main.js": "/epulz/static/js/main.ba9c5702.js",
+    "main.js": "/epulz/static/js/main.46c64621.js",
     "static/css/240.b62ac652.chunk.css": "/epulz/static/css/240.b62ac652.chunk.css",
-    "static/js/240.f56074dc.chunk.js": "/epulz/static/js/240.f56074dc.chunk.js",
-    "static/css/20.7b6191aa.chunk.css": "/epulz/static/css/20.7b6191aa.chunk.css",
-    "static/js/20.1f907b2a.chunk.js": "/epulz/static/js/20.1f907b2a.chunk.js",
+    "static/js/240.8a823fd2.chunk.js": "/epulz/static/js/240.8a823fd2.chunk.js",
+    "static/css/112.bbfdf441.chunk.css": "/epulz/static/css/112.bbfdf441.chunk.css",
+    "static/js/112.97038192.chunk.js": "/epulz/static/js/112.97038192.chunk.js",
     "static/css/600.ee4c51af.chunk.css": "/epulz/static/css/600.ee4c51af.chunk.css",
     "static/js/600.a499e8e9.chunk.js": "/epulz/static/js/600.a499e8e9.chunk.js",
     "static/js/228.3399005a.chunk.js": "/epulz/static/js/228.3399005a.chunk.js",
@@ -24,23 +24,22 @@
     "static/media/Quiz.jpg": "/epulz/static/media/Quiz.3feafc84fad378b1f31c.jpg",
     "static/media/coding_debug.jpg": "/epulz/static/media/coding_debug.d51417b26d144ccbef69.jpg",
     "static/media/dr.jpg": "/epulz/static/media/dr.afd07b6863f763995d21.jpg",
-    "static/media/spider.jpg": "/epulz/static/media/spider.8e0cddde69824359edb2.jpg",
     "static/media/cap.jpg": "/epulz/static/media/cap.8a1c69dcc16c97c52e50.jpg",
     "static/media/iron.jpg": "/epulz/static/media/iron.a41117bbef5b0f49e1e7.jpg",
     "static/media/super.jpg": "/epulz/static/media/super.ba9d54c5ad54f1d72258.jpg",
     "index.html": "/epulz/index.html",
     "main.da5cfdec.css.map": "/epulz/static/css/main.da5cfdec.css.map",
-    "main.ba9c5702.js.map": "/epulz/static/js/main.ba9c5702.js.map",
+    "main.46c64621.js.map": "/epulz/static/js/main.46c64621.js.map",
     "240.b62ac652.chunk.css.map": "/epulz/static/css/240.b62ac652.chunk.css.map",
-    "240.f56074dc.chunk.js.map": "/epulz/static/js/240.f56074dc.chunk.js.map",
-    "20.7b6191aa.chunk.css.map": "/epulz/static/css/20.7b6191aa.chunk.css.map",
-    "20.1f907b2a.chunk.js.map": "/epulz/static/js/20.1f907b2a.chunk.js.map",
+    "240.8a823fd2.chunk.js.map": "/epulz/static/js/240.8a823fd2.chunk.js.map",
+    "112.bbfdf441.chunk.css.map": "/epulz/static/css/112.bbfdf441.chunk.css.map",
+    "112.97038192.chunk.js.map": "/epulz/static/js/112.97038192.chunk.js.map",
     "600.ee4c51af.chunk.css.map": "/epulz/static/css/600.ee4c51af.chunk.css.map",
     "600.a499e8e9.chunk.js.map": "/epulz/static/js/600.a499e8e9.chunk.js.map",
     "228.3399005a.chunk.js.map": "/epulz/static/js/228.3399005a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da5cfdec.css",
-    "static/js/main.ba9c5702.js"
+    "static/js/main.46c64621.js"
   ]
 }
