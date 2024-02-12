@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Footer.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -46,16 +46,20 @@ const Footer = () => {
             <div className="col-lg-2 my-3">
               <h4 className="footer-headings">Epulz</h4>
               <ul className="footer-list">
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
-                    Home
-                  </a>
-                </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
-                    About us
-                  </a>
-                </li>
+                <Link to="/epulz">
+                  <li className="footer-list-item">
+                    <a href="#" className="footer-list-link">
+                      Home
+                    </a>
+                  </li>
+                </Link>
+                <Link to="/about">
+                  <li className="footer-list-item">
+                    <a href="#" className="footer-list-link">
+                      About us
+                    </a>
+                  </li>
+                </Link>
                 <li className="footer-list-item">
                   <a href="#" className="footer-list-link">
                     Events
