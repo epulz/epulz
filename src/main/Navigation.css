@@ -5,6 +5,11 @@
   display: block;
 }
 
+.navbar .show {
+  transform: translateX(0);
+  visibility: visible;
+}
+
 .navbar .navbar-nav .nav-item .nav-link {
   color: #fff;
   font-size: 1.1rem;

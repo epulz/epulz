@@ -297,7 +297,7 @@ h1#staffHeading {
 
 @media (max-width: 700px) {
   #aboutUs {
-    height: 150vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -346,7 +346,7 @@ h1#staffHeading {
 
   #profile {
     width: 100vw;
-    height: 250vh;
+    height: 230vh;
     display: flex;
     align-items: center;
     justify-content: center;
