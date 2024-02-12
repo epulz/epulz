@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Footer.css";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,17 +15,29 @@ const Footer = () => {
                   EPULZ
                 </button>
                 <div className="icons">
-                  <a href="">
+                  <a
+                    href="https://mail.google.com/mail/u/0/?to=epulz2k24@gmail.com&su=Epulz+Symposium+TPGIT&body=Hey!,%0A%0AHow+can+I+help+you?.%0A%0ABest+regards,%0ADinesh+R&fs=1&tf=cm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i class="fab fa-google"></i>
                     <span>|</span>
                     <span>epulz2k24</span>
                   </a>
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/epulz_3.0?igsh=aDI5ZmpvZWZtdDNx"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i class="fab fa-instagram"></i>
                     <span>|</span>
                     <span>epulz_3.0</span>
                   </a>
-                  <a href="">
+                  <a
+                    href="https://github.com/epulz/epulz"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i class="fab fa-github"></i>
                     <span>|</span>
                     <span>epulz</span>
