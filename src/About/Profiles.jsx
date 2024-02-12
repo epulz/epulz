@@ -40,14 +40,6 @@ const Profiles = () => {
             <p>principal</p>
           </div>
         </div>
-
-        <div class="box">
-          <img src={spider} alt="*" />
-          <div class="details">
-            <h2>jana</h2>
-            <p>HOD</p>
-          </div>
-        </div>
       </div>
     </section>
   );
