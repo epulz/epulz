@@ -60,11 +60,13 @@ const Footer = () => {
                     </a>
                   </li>
                 </Link>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
-                    Events
-                  </a>
-                </li>
+                <Link to="/events">
+                  <li className="footer-list-item">
+                    <a href="#" className="footer-list-link">
+                      Events
+                    </a>
+                  </li>
+                </Link>
                 <li className="footer-list-item">
                   <a href="#" className="footer-list-link">
                     Accomodations

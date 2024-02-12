@@ -1157,28 +1157,30 @@ const Others = () => {
                     <h1 class="glitch" data-text="Events">
                       Events
                     </h1>
-                    <button className="rounded-pill">
-                      <div className="default-btn">
-                        <span>Hey</span>
-                        <svg
-                          className="css-i6dzq1"
-                          strokeLinejoin="round"
-                          strokeLinecap="round"
-                          fill="none"
-                          strokeWidth={2}
-                          stroke="#FFF"
-                          height={20}
-                          width={20}
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                          <circle r={3} cy={12} cx={12} />
-                        </svg>
-                      </div>
-                      <div className="hover-btn">
-                        <span>Click Here!</span>
-                      </div>
-                    </button>
+                    <Link to="/events">
+                      <button className="rounded-pill">
+                        <div className="default-btn">
+                          <span>Hey</span>
+                          <svg
+                            className="css-i6dzq1"
+                            strokeLinejoin="round"
+                            strokeLinecap="round"
+                            fill="none"
+                            strokeWidth={2}
+                            stroke="#FFF"
+                            height={20}
+                            width={20}
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                            <circle r={3} cy={12} cx={12} />
+                          </svg>
+                        </div>
+                        <div className="hover-btn">
+                          <span>Click Here!</span>
+                        </div>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

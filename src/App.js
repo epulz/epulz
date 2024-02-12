@@ -10,8 +10,9 @@ import { Footer } from "./main/Footer";
 
 const Loading = () => <div>Loading...</div>;
 
-const Main = lazy(() => import("./Main"));
-const About = lazy(() => import("./About"));
+const Main = lazy(() => import("./main/Main"));
+const About = lazy(() => import("./About/About"));
+const Events = lazy(() => import("./Events/Events"));
 
 function App() {
   return (
@@ -32,6 +33,14 @@ function App() {
           element={
             <Suspense fallback={<Loading />}>
               <About />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/events"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Events />
             </Suspense>
           }
         />

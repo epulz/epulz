@@ -1,0 +1,308 @@
+.non-events-main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.non-events-main #backVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.non-events-main .tech-title {
+  margin-top: 10%;
+}
+
+/* Events Card */
+
+.non-events-main .cards-container {
+  height: 50vh;
+  width: 100vw;
+  max-height: 400px;
+  max-width: 1200px;
+  min-height: 400px;
+  min-width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.non-events-main .panel {
+  height: 60%;
+  width: 60%;
+  position: relative;
+}
+
+.non-events-main .panel:hover .card {
+  filter: blur(1.5px);
+}
+.non-events-main .panel:hover .card1 {
+  background-size: 215% 135%;
+}
+.non-events-main .panel:hover .card2 {
+  background-size: 115% 115%;
+}
+.non-events-main .panel:hover .card3 {
+  background-size: 155% 115%;
+}
+.non-events-main .panel:hover .title {
+  color: rgba(255, 255, 255, 0.2);
+}
+.non-events-main .panel:hover .border {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.panel:hover .slide {
+  bottom: 0px;
+}
+.non-events-main .panel:hover .ring:before,
+.non-events-main .panel:hover .ring:after {
+  transform: translateX(-50%) translateY(-50%) rotate(310deg);
+}
+.non-events-main .ring,
+.non-events-main .card,
+.non-events-main .border,
+.non-events-main .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.non-events-main .ring {
+  color: #fffbf1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 170px;
+}
+.non-events-main .card {
+  background: #f0ead6;
+  position: relative;
+  transition: all 1s;
+  height: 270px;
+  width: 190px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.non-events-main .card1 {
+  background-image: url("../assets//TechEvents/coding_debug.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.non-events-main .card2 {
+  background-image: url("https://assets.codepen.io/489403/belize.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.non-events-main .card3 {
+  background-image: url("https://assets.codepen.io/489403/egypt.jpg");
+  background-repeat: no-repeat;
+  background-size: 140% 100%;
+}
+.ring:before,
+.ring:after {
+  content: "";
+  padding: 0.7em 0.4em;
+  position: absolute;
+  left: 50%;
+  width: 115%;
+  top: 50%;
+  display: block;
+  border: 5px solid #50c9c3;
+  border-radius: 50%;
+  transition: transform 1s;
+  transform: translateX(-50%) translateY(-50%) rotate(50deg);
+}
+.non-events-mai .ring:before {
+  border-color: #ebebeb #ebebeb rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+.non-events-mai .ring:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #ebebeb #ebebeb;
+}
+.non-events-main p {
+  text-align: center;
+  position: absolute;
+  font-family: "Playfair Display";
+}
+.non-events-main .title {
+  font-size: 36px;
+  font-weight: 700;
+  transition: all 1s;
+  top: 0;
+}
+.non-events-main .para {
+  bottom: 0;
+  font-size: 16px;
+  font-family: "Raleway";
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+.non-events-main .border {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 260px;
+  width: 180px;
+  transition: border 1s;
+  overflow: hidden;
+}
+.slide {
+  height: 260px;
+  width: 180px;
+  position: absolute;
+  border: 1px solid black;
+  bottom: -270px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: bottom 1s;
+  flex-direction: column;
+}
+.non-events-main .fa-plane {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .non-events-main .cards-container {
+    height: 500vh;
+    min-height: 1200px;
+    min-width: 100px;
+    flex-direction: column;
+  }
+
+  .non-events-main {
+    height: 250vh;
+  }
+
+  .slide {
+    display: none;
+  }
+}
+
+/* .non-events-main .btn */
+.cssbuttons-io-button {
+  background: #a370f0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+  animation: translateXAnimation 1s infinite;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+@keyframes translateXAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0.3em);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* Links */
+
+.event-link {
+  text-decoration: none;
+  display: block;
+}
+
+.event-link {
+  height: 60%;
+  width: 60%;
+  position: relative;
+}
+
+.event-link:hover .card {
+  filter: blur(1.5px);
+}
+.event-link:hover .card1 {
+  background-size: 215% 135%;
+}
+.event-link:hover .card2 {
+  background-size: 115% 115%;
+}
+.event-link:hover .card3 {
+  background-size: 155% 115%;
+}
+.event-link:hover .title {
+  color: rgba(255, 255, 255, 0.2);
+}
+.event-link:hover .border {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.event-link:hover .slide {
+  bottom: 0px;
+}
+.event-link:hover .ring:before,
+.event-link:hover .ring:after {
+  transform: translateX(-50%) translateY(-50%) rotate(310deg);
+}
+
+.non-events-main .slide .e-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}

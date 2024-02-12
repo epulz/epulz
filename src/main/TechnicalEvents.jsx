@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-no-target-blank */
-import project from "../assets/Tech Events/Project_expo.jpg";
-import paper from "../assets/Tech Events/presentation.jpg";
-import coding from "../assets/Tech Events/coding_debug.jpg";
-import tech from "../assets/Tech Events/tech_events.mp4";
-import quiz from "../assets/Tech Events/Quiz.jpg";
+import project from "../assets/TechEvents/Project_expo.jpg";
+import paper from "../assets/TechEvents/presentation.jpg";
+import coding from "../assets/TechEvents/coding_debug.jpg";
+import quiz from "../assets/TechEvents/Quiz.jpg";
+import tech from "../assets/TechEvents/tech_events.mp4";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 

@@ -4,7 +4,6 @@ import cross from "../assets/Nav/shape.png";
 import "./Navigation.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { useEffect } from "react";
 
 const Navigation = () => {
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
@@ -90,17 +89,22 @@ const Navigation = () => {
                   </a>
                 </li>
               </Link>
-
-              <li className="nav-item">
-                <a
-                  className="nav-link active mx-4"
-                  aria-current="page"
-                  href="#"
-                  onClick={closeOffcanvas}
+              <Link to="/events" onClick={closeOffcanvas}>
+                <li
+                  className="nav-item"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
                 >
-                  Events
-                </a>
-              </li>
+                  <a
+                    className="nav-link active mx-4"
+                    aria-current="page"
+                    href="#"
+                    onClick={closeOffcanvas}
+                  >
+                    Events
+                  </a>
+                </li>
+              </Link>
               <li className="nav-item">
                 <a
                   className="nav-link active mx-4"

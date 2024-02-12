@@ -1,7 +1,7 @@
-import "./About/About.css";
-import { Gallery } from "./About/Gallery";
-import { HeroAbout } from "./About/HeroAbout";
-import { Profiles } from "./About/Profiles";
+import "./About.css";
+import { Gallery } from "./Gallery";
+import { HeroAbout } from "./HeroAbout";
+import { Profiles } from "./Profiles";
 
 const About = () => {
   return (
