@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Footer.css";
@@ -73,7 +74,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
+                    className="footer-list-link"
+                    target="_blank"
+                  >
                     Register
                   </a>
                 </li>

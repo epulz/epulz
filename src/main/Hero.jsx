@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/heading-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef } from "react";
@@ -34,7 +35,11 @@ function Hero() {
           <h1 ref={h1Ref} id="typed-letters"></h1>
         </div>
         <div class="btn-conteiner mt-3">
-          <a class="btn-content" href="#">
+          <a
+            class="btn-content"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
+            target="_blank"
+          >
             <span class="btn-title">REGISTER</span>
             <span class="icon-arrow">
               <svg

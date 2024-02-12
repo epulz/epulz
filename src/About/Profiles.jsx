@@ -2,7 +2,6 @@ import iron from "../assets/About/profiles/iron.jpg";
 import cap from "../assets/About/profiles/cap.jpg";
 import superman from "../assets/About/profiles/super.jpg";
 import dr from "../assets/About/profiles/dr.jpg";
-import spider from "../assets/About/profiles/spider.jpg";
 
 const Profiles = () => {
   return (

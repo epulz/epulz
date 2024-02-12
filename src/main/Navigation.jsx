@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import menu from "../assets/Nav/menu-bar.png";
 import cross from "../assets/Nav/shape.png";
@@ -117,20 +118,26 @@ const Navigation = () => {
               </li>
             </ul>
             <form className="d-flex justify-content-center align-items-center mt-3">
-              <button
-                className="btn rounded-pill px-4 py-1 me-4 mb-3"
-                type="button"
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
+                style={{ textDecoration: "none" }}
+                target="_blank"
               >
-                <strong>Register</strong>
-                <div id="container-stars">
-                  <div id="stars"></div>
-                </div>
+                <button
+                  className="btn rounded-pill px-4 py-1 me-4 mb-3"
+                  type="button"
+                >
+                  <strong>Register</strong>
+                  <div id="container-stars">
+                    <div id="stars"></div>
+                  </div>
 
-                <div id="glow">
-                  <div className="circle"></div>
-                  <div className="circle"></div>
-                </div>
-              </button>
+                  <div id="glow">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                  </div>
+                </button>
+              </a>
               <button
                 className="btn rounded-pill px-4 py-1 mx-4 mb-3"
                 type="button"
