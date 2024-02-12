@@ -15,7 +15,7 @@ import "./NonTechnicalEvents.css";
 
 const NonTechnicalEvents = () => {
   return (
-    <main>
+    <main className="nontech-main">
       <video autoPlay loop muted src={nontech} id="backVideo"></video>
       <div className="swiper">
         <h1 className="text-center nontech-title">Non Technical Events</h1>

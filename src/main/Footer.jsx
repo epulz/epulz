@@ -9,34 +9,29 @@ const Footer = () => {
         <div className="footer-container">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-4 mb-3">
+              <div className="col-lg-3 mb-3">
                 <button className="footer-brand footer-brand-text" href="#">
                   EPULZ
                 </button>
-                <div className="footer-icons">
-                  <img
-                    src="./assets/Footer/facebook.png"
-                    alt="facebook"
-                    className="footer-icon"
-                  />
-                  <img
-                    src="./assets/Footer/instagram.png"
-                    alt="instagram"
-                    className="footer-icon ms-2"
-                  />
-                  <img
-                    src="./assets/Footer/twitter.png"
-                    alt="twitter"
-                    className="footer-icon ms-2"
-                  />
-                  <img
-                    src="./assets/Footer/linkedin.png"
-                    alt="linkedin"
-                    className="footer-icon ms-2"
-                  />
+                <div className="icons">
+                  <a href="">
+                    <i class="fab fa-google"></i>
+                    <span>|</span>
+                    <span>epulz2k24</span>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-instagram"></i>
+                    <span>|</span>
+                    <span>epulz_3.0</span>
+                  </a>
+                  <a href="">
+                    <i class="fab fa-github"></i>
+                    <span>|</span>
+                    <span>epulz</span>
+                  </a>
                 </div>
               </div>
-              <div className="col-lg-2 mb-3">
+              <div className="col-lg-2 my-3">
                 <h4 className="footer-headings">Epulz</h4>
                 <ul className="footer-list">
                   <li className="footer-list-item">
@@ -71,7 +66,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-3 mb-3">
+              <div className="col-lg-4 my-3">
                 <h4 className="footer-headings">Map</h4>
                 <div
                   className="map mt-3"
@@ -99,7 +94,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="col-lg-3 mb-3">
+              <div className="col-lg-3 my-3">
                 <h4 className="footer-headings mt-2">Developers</h4>
                 <ul className="footer-list">
                   <li className="footer-list-item">

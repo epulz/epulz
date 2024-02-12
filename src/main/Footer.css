@@ -1,3 +1,6 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
 /* Footer Styles */
 
 .footer-wrapper {
@@ -38,11 +41,6 @@ footer .footer-container {
   color: #fff;
   font-size: 0.7rem;
   font-weight: 300;
-}
-
-.footer-icon {
-  width: 12%;
-  height: 12%;
 }
 
 .footer-headings {
@@ -159,11 +157,6 @@ footer .footer-container {
 
   .footer-para {
     font-size: 0.7rem;
-  }
-
-  .footer-icon {
-    width: 15%;
-    height: 15%;
   }
 }
 
@@ -315,7 +308,7 @@ footer .footer-brand:hover {
   left: 0;
   width: 0;
   height: 3px;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .footer-list-link:hover {
@@ -326,4 +319,59 @@ footer .footer-brand:hover {
 
 .footer-list-link:hover::before {
   width: 100%;
+}
+
+/* Footer Icons */
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.icons a {
+  display: inline-flex;
+  max-width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  background-size: 100% 200%;
+  background-position: 0% 5%;
+  transition: background-position 0.5s, color 0.5s;
+}
+
+.icons a:nth-child(1) {
+  color: #1976d3;
+  background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+
+.icons a:nth-child(2) {
+  color: #db6f44;
+  background-image: linear-gradient(#fff 50%, #db6f44 50%);
+}
+
+.icons a:nth-child(3) {
+  color: #000;
+  background-image: linear-gradient(#fff 50%, #000 50%);
+}
+
+.icons a:nth-child(4) {
+  color: #03a9f5;
+  background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+}
+
+.icons a:hover {
+  background-position: 0% 100%;
+  color: #fff;
+}
+
+.icons a span {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
 }

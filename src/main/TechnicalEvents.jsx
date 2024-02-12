@@ -15,7 +15,7 @@ import "./TechnicalEvents.css";
 
 const TechnicalEvents = () => {
   return (
-    <main>
+    <main className="tech-main">
       <video autoPlay loop muted src={tech} id="backVideo"></video>
       <div className="swiper">
         <h1 className="text-center tech-title">Technical Events</h1>
