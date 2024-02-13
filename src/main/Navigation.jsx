@@ -120,6 +120,22 @@ const Navigation = () => {
                   Accomodations
                 </a>
               </li>
+              <Link to="/events" onClick={closeOffcanvas}>
+                <li
+                  className="nav-item"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <a
+                    className="nav-link active mx-4"
+                    aria-current="page"
+                    href="#"
+                    onClick={closeOffcanvas}
+                  >
+                    Contact Us
+                  </a>
+                </li>
+              </Link>
             </ul>
             <form className="d-flex justify-content-center align-items-center mt-3">
               <a
@@ -144,20 +160,6 @@ const Navigation = () => {
                   </div>
                 </button>
               </a>
-              <button
-                className="btn rounded-pill px-4 py-1 mx-4 mb-3"
-                type="button"
-              >
-                <strong>Contact</strong>
-                <div id="container-stars">
-                  <div id="stars"></div>
-                </div>
-
-                <div id="glow">
-                  <div className="circle"></div>
-                  <div className="circle"></div>
-                </div>
-              </button>
             </form>
           </div>
         </div>

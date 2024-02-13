@@ -79,12 +79,11 @@ const TechnicalEvents = () => {
                       quisquam minima obcaecati magnam sequi nihil harum rem
                       est, provident ab?
                     </p>
-                    <a
+                    <Link
                       rel="noopener"
                       title="Learn more"
                       className="show-more"
-                      href="https://en.wikipedia.org/wiki/Louvre"
-                      target="_blank"
+                      to="/event/project-expo"
                     >
                       <svg
                         fill="none"
@@ -100,7 +99,7 @@ const TechnicalEvents = () => {
                           d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -140,11 +139,7 @@ const TechnicalEvents = () => {
                       ipsam distinctio tenetur ipsum sit quas, nulla magni
                       atque? Rem!
                     </p>
-                    <Link
-                      to="/event/mind-unfolded"
-                      className="show-more"
-                      target="_blank"
-                    >
+                    <Link to="/event/mind-unfolded" className="show-more">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -192,18 +187,14 @@ const TechnicalEvents = () => {
                 </div>
                 <div className="swiper-slide-content">
                   <div>
-                    <h2>Coding Debuging</h2>
+                    <h2>Code Dilemma</h2>
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Molestiae velit eum consequuntur dolorum eveniet iste
                       inventore amet, dolore voluptatem, enim veritatis,
                       voluptates repellat! Voluptatibus, mollitia.
                     </p>
-                    <a
-                      className="show-more"
-                      href="https://en.wikipedia.org/wiki/London"
-                      target="_blank"
-                    >
+                    <Link className="show-more" to="/event/code-dilemma">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -218,7 +209,7 @@ const TechnicalEvents = () => {
                           d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -251,18 +242,14 @@ const TechnicalEvents = () => {
                 </div>
                 <div className="swiper-slide-content">
                   <div>
-                    <h2>Quiz</h2>
+                    <h2>Brain Buster</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Facilis repellat nihil sint, dolor non cum soluta
                       excepturi corrupti ullam, hic ad? Laborum dolorum nostrum
                       velit!
                     </p>
-                    <a
-                      className="show-more"
-                      href="https://en.wikipedia.org/wiki/Maldives"
-                      target="_blank"
-                    >
+                    <Link className="show-more" to="/event/brain-buster">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -277,7 +264,7 @@ const TechnicalEvents = () => {
                           d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

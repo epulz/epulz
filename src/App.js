@@ -14,6 +14,12 @@ const Main = lazy(() => import("./main/Main"));
 const About = lazy(() => import("./About/About"));
 const Events = lazy(() => import("./Events/Events"));
 const Mind = lazy(() => import("./Event/Mind"));
+const Brain = lazy(() => import("./Event/Brain"));
+const CodeDilemma = lazy(() => import("./Event/CodeDilemma"));
+const Fable = lazy(() => import("./Event/Fable"));
+const Orator = lazy(() => import("./Event/Orator"));
+const Project = lazy(() => import("./Event/Project"));
+const Scam = lazy(() => import("./Event/Scam"));
 
 function App() {
   return (
@@ -53,7 +59,56 @@ function App() {
             </Suspense>
           }
         />
+        <Route
+          path="/event/brain-buster"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Brain />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/event/code-dilemma"
+          element={
+            <Suspense fallback={<Loading />}>
+              <CodeDilemma />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/event/fable-forum"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Fable />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/event/the-orators-arena"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Orator />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/event/project-expo"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Project />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/event/scam-2024"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Scam />
+            </Suspense>
+          }
+        />
       </Routes>
+
       <Outlet />
       <Footer />
     </Router>

@@ -111,7 +111,7 @@ const TechEvents = () => {
                   Showcase Your Projects, Inspire Others!
                 </p>
                 <Link
-                  to="/epulz"
+                  to="/event/project-expo"
                   className="inside-page__btn inside-page__btn--ski"
                 >
                   Click Here
@@ -160,7 +160,7 @@ const TechEvents = () => {
                   Calling all code wizards! Debugging challenge awaits you!
                 </p>
                 <Link
-                  to="/epulz"
+                  to="/event/code-dilemma"
                   className="inside-page__btn inside-page__btn--beach"
                 >
                   Click Here
@@ -209,7 +209,7 @@ const TechEvents = () => {
                   Engage your mind: Quiz awaits!
                 </p>
                 <Link
-                  to="/epulz"
+                  to="/event/brain-buster"
                   className="inside-page__btn inside-page__btn--camping"
                 >
                   Click Here
