@@ -204,4 +204,8 @@
   .ultimate-main {
     height: 220vh;
   }
+
+  .ultimate .tech-title {
+    margin-top: 0;
+  }
 }
