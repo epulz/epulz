@@ -1,4 +1,4 @@
-.events-main {
+.event-main {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.events-main #backVideo {
+.event-main #backVideo {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@
   z-index: -1;
 }
 
-.events-main .tech-title {
+.event-main .tech-title {
   margin-top: 10%;
 }
 
@@ -188,7 +188,7 @@ p {
     flex-direction: column;
   }
 
-  .events-main {
+  .event-main {
     height: 250vh;
   }
 }

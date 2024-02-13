@@ -154,7 +154,7 @@
 
 /* Layout Structure=========================================*/
 
-.main {
+.events-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +162,7 @@
   width: 100%;
 }
 
-.main #backVideo {
+.events-main #backVideo {
   position: fixed;
   top: 0;
   left: 0;
@@ -172,7 +172,7 @@
   z-index: -1;
 }
 
-.main .tech-title {
+.events-main .tech-title {
   margin-top: 8%;
 }
 
@@ -209,7 +209,7 @@
 }
 
 @media (max-width: 768px) {
-  .main {
+  .events-main {
     height: 200vh;
   }
   .non-main {
@@ -218,7 +218,7 @@
   .card-area {
     flex-direction: column;
   }
-  .main .tech-title {
+  .events-main .tech-title {
     margin-top: 30%;
   }
 }

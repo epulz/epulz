@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway:wght@700&display=swap");
 
-.nontech-main {
+main {
   position: relative;
   overflow: hidden;
   max-width: 100%;

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import "../main/TechnicalEvents.css";
-import "./Events.css";
+import "../Events/Events.css";
 import nontech from "../assets/NonTech/non-tech.mp4";
 
 import project from "../assets/TechEvents/Project_expo.jpg";

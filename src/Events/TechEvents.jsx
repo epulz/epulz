@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "../main/TechnicalEvents.css";
-import "./Events.css";
+import "../Events/Events.css";
 import tech from "../assets/TechEvents/tech_events.mp4";
 import project from "../assets/TechEvents/Project_expo.jpg";
 import paper from "../assets/TechEvents/presentation.jpg";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const TechEvents = () => {
   return (
-    <main className="main">
+    <main className="events-main">
       <video autoPlay loop muted src={tech} id="backVideo"></video>
       <h1 className="text-center tech-title">Technical Events</h1>
       <section className="card-area">
