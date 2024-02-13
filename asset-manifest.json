@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/epulz/static/css/main.da5cfdec.css",
-    "main.js": "/epulz/static/js/main.d8271fb8.js",
+    "main.js": "/epulz/static/js/main.90cad3b6.js",
     "static/css/240.cff96da7.chunk.css": "/epulz/static/css/240.cff96da7.chunk.css",
-    "static/js/240.8a823fd2.chunk.js": "/epulz/static/js/240.8a823fd2.chunk.js",
+    "static/js/240.a2c78bc9.chunk.js": "/epulz/static/js/240.a2c78bc9.chunk.js",
     "static/css/112.bbfdf441.chunk.css": "/epulz/static/css/112.bbfdf441.chunk.css",
     "static/js/112.97038192.chunk.js": "/epulz/static/js/112.97038192.chunk.js",
     "static/css/600.16829ed7.chunk.css": "/epulz/static/css/600.16829ed7.chunk.css",
-    "static/js/600.e8a08725.chunk.js": "/epulz/static/js/600.e8a08725.chunk.js",
+    "static/js/600.907e7673.chunk.js": "/epulz/static/js/600.907e7673.chunk.js",
+    "static/css/620.72ceebaa.chunk.css": "/epulz/static/css/620.72ceebaa.chunk.css",
+    "static/js/620.357000f3.chunk.js": "/epulz/static/js/620.357000f3.chunk.js",
     "static/js/228.3399005a.chunk.js": "/epulz/static/js/228.3399005a.chunk.js",
     "static/media/circuit.mp4": "/epulz/static/media/circuit.234e8731bf7f1741736b.mp4",
     "static/media/Project_expo.jpg": "/epulz/static/media/Project_expo.4523ac1129c8aaa234b6.jpg",
@@ -29,17 +31,19 @@
     "static/media/super.jpg": "/epulz/static/media/super.ba9d54c5ad54f1d72258.jpg",
     "index.html": "/epulz/index.html",
     "main.da5cfdec.css.map": "/epulz/static/css/main.da5cfdec.css.map",
-    "main.d8271fb8.js.map": "/epulz/static/js/main.d8271fb8.js.map",
+    "main.90cad3b6.js.map": "/epulz/static/js/main.90cad3b6.js.map",
     "240.cff96da7.chunk.css.map": "/epulz/static/css/240.cff96da7.chunk.css.map",
-    "240.8a823fd2.chunk.js.map": "/epulz/static/js/240.8a823fd2.chunk.js.map",
+    "240.a2c78bc9.chunk.js.map": "/epulz/static/js/240.a2c78bc9.chunk.js.map",
     "112.bbfdf441.chunk.css.map": "/epulz/static/css/112.bbfdf441.chunk.css.map",
     "112.97038192.chunk.js.map": "/epulz/static/js/112.97038192.chunk.js.map",
     "600.16829ed7.chunk.css.map": "/epulz/static/css/600.16829ed7.chunk.css.map",
-    "600.e8a08725.chunk.js.map": "/epulz/static/js/600.e8a08725.chunk.js.map",
+    "600.907e7673.chunk.js.map": "/epulz/static/js/600.907e7673.chunk.js.map",
+    "620.72ceebaa.chunk.css.map": "/epulz/static/css/620.72ceebaa.chunk.css.map",
+    "620.357000f3.chunk.js.map": "/epulz/static/js/620.357000f3.chunk.js.map",
     "228.3399005a.chunk.js.map": "/epulz/static/js/228.3399005a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da5cfdec.css",
-    "static/js/main.d8271fb8.js"
+    "static/js/main.90cad3b6.js"
   ]
 }
