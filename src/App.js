@@ -13,6 +13,7 @@ const Loading = () => <div>Loading...</div>;
 const Main = lazy(() => import("./main/Main"));
 const About = lazy(() => import("./About/About"));
 const Events = lazy(() => import("./Events/Events"));
+const Mind = lazy(() => import("./Event/Mind"));
 
 function App() {
   return (
@@ -41,6 +42,14 @@ function App() {
           element={
             <Suspense fallback={<Loading />}>
               <Events />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/event/mind-unfolded"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Mind />
             </Suspense>
           }
         />

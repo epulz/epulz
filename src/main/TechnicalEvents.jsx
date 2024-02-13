@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "./TechnicalEvents.css";
+import { Link } from "react-router-dom";
 
 const TechnicalEvents = () => {
   return (
@@ -132,16 +133,16 @@ const TechnicalEvents = () => {
                 </div>
                 <div className="swiper-slide-content">
                   <div>
-                    <h2>Paper Presentation</h2>
+                    <h2>Mind Unfolded</h2>
                     <p>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Aspernatur, debitis commodi quis sint ratione magnam,
                       ipsam distinctio tenetur ipsum sit quas, nulla magni
                       atque? Rem!
                     </p>
-                    <a
+                    <Link
+                      to="/event/mind-unfolded"
                       className="show-more"
-                      href="https://en.wikipedia.org/wiki/Seychelles"
                       target="_blank"
                     >
                       <svg
@@ -158,7 +159,7 @@ const TechnicalEvents = () => {
                           d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

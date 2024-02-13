@@ -60,7 +60,7 @@ const TechEvents = () => {
                   discoveries!
                 </p>
                 <Link
-                  to="/epulz"
+                  to="/event/mind-unfolded"
                   className="inside-page__btn inside-page__btn--city"
                 >
                   Click Here

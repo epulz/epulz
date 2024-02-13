@@ -28,6 +28,9 @@ function Hero() {
     <div id="hero">
       <video autoPlay loop muted src={circuit} id="backVideo"></video>
       <div id="content">
+        <h3 className="department">
+          Thanthai Periyar Government Institute Of Technology
+        </h3>
         <h3 className="department">Department of ECE</h3>
         <h4 className="present">Proudly Presents</h4>
         <div id="typed-strings">
