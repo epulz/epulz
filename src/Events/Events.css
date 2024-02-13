@@ -235,7 +235,16 @@
 }
 
 /* A container to hold the flip card and the inside page */
-.card {
+.events-main .card {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
+  height: 15rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 15rem;
+}
+
+.non-main .card {
   background-color: rgba(0, 0, 0, 0.05);
   box-shadow: -0.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
   height: 15rem;
