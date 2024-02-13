@@ -12,7 +12,7 @@ const Mind = () => {
           src="https://www.1md.be/img/video/intro_bridge.mp4"
           id="backVideo"
         />
-        <main className="main flow">
+        <main className="mind-main flow">
           <h1 className="text-center tech-title">Mind Unfolded</h1>
           <div className="main__cards cards">
             <div className="cards__inner">

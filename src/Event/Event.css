@@ -30,7 +30,7 @@
   list-style: none;
 }
 
-.ultimate main {
+.ultimate .mind-main {
   display: flex;
   flex-direction: column;
   align-items: center;
