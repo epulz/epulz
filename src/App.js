@@ -17,7 +17,7 @@ const Mind = lazy(() => import("./Event/Mind"));
 const Brain = lazy(() => import("./Event/Brain"));
 const CodeDilemma = lazy(() => import("./Event/CodeDilemma"));
 const Fable = lazy(() => import("./Event/Fable"));
-const Orator = lazy(() => import("./Event/Orator"));
+const Dumb = lazy(() => import("./Event/Dumb"));
 const Project = lazy(() => import("./Event/Project"));
 const Scam = lazy(() => import("./Event/Scam"));
 
@@ -84,10 +84,10 @@ function App() {
           }
         />
         <Route
-          path="/event/the-orators-arena"
+          path="/epulz/event/dumb-charades"
           element={
             <Suspense fallback={<Loading />}>
-              <Orator />
+              <Dumb />
             </Suspense>
           }
         />

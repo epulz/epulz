@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import "./Event.css";
 
-const Orator = () => {
+const Dumb = () => {
   return (
     <div className="ultimate-main">
       <div className="ultimate">
@@ -65,4 +65,4 @@ const Orator = () => {
   );
 };
 
-export default Orator;
+export default Dumb;

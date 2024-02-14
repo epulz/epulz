@@ -71,18 +71,17 @@ const NonTechnicalEvents = () => {
                 </div>
                 <div className="swiper-slide-content">
                   <div>
-                    <h2>The Orator's Arena</h2>
+                    <h2>Dumb Charades</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repellat, accusantium autem, doloribus soluta ullam
-                      quisquam minima obcaecati magnam sequi nihil harum rem
-                      est, provident ab?
+                      Step into the realm of silent theatrics at Dumb Charades,
+                      where creativity, intuition, and hilarity combine for an
+                      unforgettable performance.
                     </p>
                     <Link
                       rel="noopener"
                       title="Learn more"
                       className="show-more"
-                      to="/event/the-orators-arena"
+                      to="/epulz/event/dumb-charades"
                     >
                       <svg
                         fill="none"
@@ -133,10 +132,9 @@ const NonTechnicalEvents = () => {
                   <div>
                     <h2>Scam 2024</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Aspernatur, debitis commodi quis sint ratione magnam,
-                      ipsam distinctio tenetur ipsum sit quas, nulla magni
-                      atque? Rem!
+                      Join us at Scam 2024, where innovative marketing
+                      strategies redefine the landscape, captivating audiences
+                      and reshaping industry standards.
                     </p>
                     <Link className="show-more" to="/event/scam-2024">
                       <svg
@@ -188,10 +186,9 @@ const NonTechnicalEvents = () => {
                   <div>
                     <h2>Fable Forum</h2>
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Molestiae velit eum consequuntur dolorum eveniet iste
-                      inventore amet, dolore voluptatem, enim veritatis,
-                      voluptates repellat! Voluptatibus, mollitia.
+                      Embark on an enchanting journey at Fable Forum, where
+                      imagination reigns supreme, weaving captivating tales that
+                      transport minds to magical realms.
                     </p>
                     <Link className="show-more" to="/event/fable-forum">
                       <svg

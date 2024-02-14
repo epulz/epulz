@@ -74,10 +74,9 @@ const TechnicalEvents = () => {
                   <div>
                     <h2>Project-Expo</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repellat, accusantium autem, doloribus soluta ullam
-                      quisquam minima obcaecati magnam sequi nihil harum rem
-                      est, provident ab?
+                      Celebrate ingenuity at our Project Expo, where innovation,
+                      creativity, and vision come together to showcase the
+                      future of technology.
                     </p>
                     <Link
                       rel="noopener"
@@ -134,10 +133,9 @@ const TechnicalEvents = () => {
                   <div>
                     <h2>Mind Unfolded</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Aspernatur, debitis commodi quis sint ratione magnam,
-                      ipsam distinctio tenetur ipsum sit quas, nulla magni
-                      atque? Rem!
+                      Prepare for a transformative experience as we delve into
+                      the depths of cutting-edge research and unveil the
+                      brilliance within.
                     </p>
                     <Link to="/event/mind-unfolded" className="show-more">
                       <svg
@@ -189,10 +187,9 @@ const TechnicalEvents = () => {
                   <div>
                     <h2>Code Dilemma</h2>
                     <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Molestiae velit eum consequuntur dolorum eveniet iste
-                      inventore amet, dolore voluptatem, enim veritatis,
-                      voluptates repellat! Voluptatibus, mollitia.
+                      Enter the realm of Code Dilemma, where coding prowess
+                      reigns supreme, challenging minds to conquer perplexing
+                      puzzles and unravel solutions.
                     </p>
                     <Link className="show-more" to="/event/code-dilemma">
                       <svg
@@ -244,10 +241,9 @@ const TechnicalEvents = () => {
                   <div>
                     <h2>Brain Buster</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Facilis repellat nihil sint, dolor non cum soluta
-                      excepturi corrupti ullam, hic ad? Laborum dolorum nostrum
-                      velit!
+                      Prepare for a cerebral showdown at Brain Buster, where
+                      wit, knowledge, and quick thinking collide in an
+                      electrifying technical quiz challenge.
                     </p>
                     <Link className="show-more" to="/event/brain-buster">
                       <svg
