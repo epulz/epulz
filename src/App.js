@@ -36,7 +36,7 @@ function App() {
           }
         />
         <Route
-          path="/about"
+          path="/epulz/about"
           element={
             <Suspense fallback={<Loading />}>
               <About />

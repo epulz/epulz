@@ -54,7 +54,7 @@ const Footer = () => {
                     </a>
                   </li>
                 </Link>
-                <Link to="/about">
+                <Link to="/epulz/about">
                   <li className="footer-list-item">
                     <a href="#" className="footer-list-link">
                       About us

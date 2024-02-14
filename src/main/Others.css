@@ -139,7 +139,7 @@
 }
 
 .others .card-container:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .others h1 {
   font-size: 2.5rem;

@@ -75,7 +75,7 @@ const Navigation = () => {
                   </a>
                 </li>
               </Link>
-              <Link to="/about" onClick={closeOffcanvas}>
+              <Link to="/epulz/about" onClick={closeOffcanvas}>
                 <li
                   className="nav-item"
                   data-bs-dismiss="offcanvas"
