@@ -112,6 +112,7 @@
   background-repeat: no-repeat;
   background-size: 140% 100%;
 }
+
 .ring:before,
 .ring:after {
   content: "";
