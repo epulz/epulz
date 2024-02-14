@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/epulz/static/css/main.da5cfdec.css",
-    "main.js": "/epulz/static/js/main.32cb9477.js",
-    "static/css/240.3db7c28a.chunk.css": "/epulz/static/css/240.3db7c28a.chunk.css",
-    "static/js/240.c6dbc2d1.chunk.js": "/epulz/static/js/240.c6dbc2d1.chunk.js",
+    "main.js": "/epulz/static/js/main.d697e483.js",
+    "static/css/240.be30a726.chunk.css": "/epulz/static/css/240.be30a726.chunk.css",
+    "static/js/240.3f0d1a6e.chunk.js": "/epulz/static/js/240.3f0d1a6e.chunk.js",
     "static/css/112.bbfdf441.chunk.css": "/epulz/static/css/112.bbfdf441.chunk.css",
     "static/js/112.8110a77d.chunk.js": "/epulz/static/js/112.8110a77d.chunk.js",
     "static/css/600.20db57bd.chunk.css": "/epulz/static/css/600.20db57bd.chunk.css",
@@ -43,9 +43,9 @@
     "static/media/super.jpg": "/epulz/static/media/super.ba9d54c5ad54f1d72258.jpg",
     "index.html": "/epulz/index.html",
     "main.da5cfdec.css.map": "/epulz/static/css/main.da5cfdec.css.map",
-    "main.32cb9477.js.map": "/epulz/static/js/main.32cb9477.js.map",
-    "240.3db7c28a.chunk.css.map": "/epulz/static/css/240.3db7c28a.chunk.css.map",
-    "240.c6dbc2d1.chunk.js.map": "/epulz/static/js/240.c6dbc2d1.chunk.js.map",
+    "main.d697e483.js.map": "/epulz/static/js/main.d697e483.js.map",
+    "240.be30a726.chunk.css.map": "/epulz/static/css/240.be30a726.chunk.css.map",
+    "240.3f0d1a6e.chunk.js.map": "/epulz/static/js/240.3f0d1a6e.chunk.js.map",
     "112.bbfdf441.chunk.css.map": "/epulz/static/css/112.bbfdf441.chunk.css.map",
     "112.8110a77d.chunk.js.map": "/epulz/static/js/112.8110a77d.chunk.js.map",
     "600.20db57bd.chunk.css.map": "/epulz/static/css/600.20db57bd.chunk.css.map",
@@ -68,6 +68,6 @@
   },
   "entrypoints": [
     "static/css/main.da5cfdec.css",
-    "static/js/main.32cb9477.js"
+    "static/js/main.d697e483.js"
   ]
 }
