@@ -60,7 +60,7 @@ const TechEvents = () => {
                   discoveries!
                 </p>
                 <Link
-                  to="/event/mind-unfolded"
+                  to="/epulz/event/mind-unfolded"
                   className="inside-page__btn inside-page__btn--city"
                 >
                   Click Here
@@ -111,7 +111,7 @@ const TechEvents = () => {
                   Showcase Your Projects, Inspire Others!
                 </p>
                 <Link
-                  to="/event/project-expo"
+                  to="/epulz/event/project-expo"
                   className="inside-page__btn inside-page__btn--ski"
                 >
                   Click Here
@@ -160,7 +160,7 @@ const TechEvents = () => {
                   Calling all code wizards! Debugging challenge awaits you!
                 </p>
                 <Link
-                  to="/event/code-dilemma"
+                  to="/epulz/event/code-dilemma"
                   className="inside-page__btn inside-page__btn--beach"
                 >
                   Click Here
@@ -169,7 +169,7 @@ const TechEvents = () => {
             </div>
           </div>
         </section>
-        {/* Card: Camping */}
+        {/* Card: Brain Buster */}
         <section className="card-section">
           <div className="card">
             <div className="flip-card">
@@ -209,7 +209,7 @@ const TechEvents = () => {
                   Engage your mind: Quiz awaits!
                 </p>
                 <Link
-                  to="/event/brain-buster"
+                  to="/epulz/event/brain-buster"
                   className="inside-page__btn inside-page__btn--camping"
                 >
                   Click Here

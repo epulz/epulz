@@ -52,7 +52,7 @@ function App() {
           }
         />
         <Route
-          path="/event/mind-unfolded"
+          path="/epulz/event/mind-unfolded"
           element={
             <Suspense fallback={<Loading />}>
               <Mind />
@@ -60,7 +60,7 @@ function App() {
           }
         />
         <Route
-          path="/event/brain-buster"
+          path="/epulz/event/brain-buster"
           element={
             <Suspense fallback={<Loading />}>
               <Brain />
@@ -68,7 +68,7 @@ function App() {
           }
         />
         <Route
-          path="/event/code-dilemma"
+          path="/epulz/event/code-dilemma"
           element={
             <Suspense fallback={<Loading />}>
               <CodeDilemma />
@@ -76,7 +76,7 @@ function App() {
           }
         />
         <Route
-          path="/event/fable-forum"
+          path="/epulz/event/fable-forum"
           element={
             <Suspense fallback={<Loading />}>
               <Fable />
@@ -92,7 +92,7 @@ function App() {
           }
         />
         <Route
-          path="/event/project-expo"
+          path="/epulz/event/project-expo"
           element={
             <Suspense fallback={<Loading />}>
               <Project />
@@ -100,7 +100,7 @@ function App() {
           }
         />
         <Route
-          path="/event/scam-2024"
+          path="/epulz/event/scam-2024"
           element={
             <Suspense fallback={<Loading />}>
               <Scam />

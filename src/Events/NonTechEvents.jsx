@@ -105,7 +105,7 @@ const NonTechEvents = () => {
                   Calling all code wizards! Debugging challenge awaits you!
                 </p>
                 <Link
-                  to="/event/scam-2024"
+                  to="/epulz/event/scam-2024"
                   className="inside-page__btn inside-page__btn--beach"
                 >
                   Click Here
@@ -132,9 +132,7 @@ const NonTechEvents = () => {
                       <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7" />
                     </svg>
                     <h2 className="card-front__heading">Fable Forum</h2>
-                    <p className="card-front__text-price">
-                      (Creative Story Telling)
-                    </p>
+                    <p className="card-front__text-price">(Story Telling)</p>
                   </div>
                   <div className="card-front__bt">
                     <p className="card-front__text-view card-front__text-view--camping">
@@ -156,7 +154,7 @@ const NonTechEvents = () => {
                   Engage your mind: Quiz awaits!
                 </p>
                 <Link
-                  to="/event/fable-forum"
+                  to="/epulz/event/fable-forum"
                   className="inside-page__btn inside-page__btn--camping"
                 >
                   Click Here

@@ -1,4 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/no-redundant-roles */
+import { Link } from "react-router-dom";
 import "./Event.css";
 
 const Dumb = () => {
@@ -13,48 +15,70 @@ const Dumb = () => {
           id="backVideo"
         />
         <main className="mind-main flow">
-          <h1 className="text-center tech-title">The Orator's Arena</h1>
+          <h1 className="text-center tech-title">Dumb Charades</h1>
           <div className="main__cards cards">
             <div className="cards__inner">
               <div className="cards__card card">
-                <h2 className="card__heading">Discription</h2>
-                <p className="card__price">$9.99</p>
+                <h2 className="card__heading">Description</h2>
+                <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Access to standard workouts and nutrition plans</li>
-                  <li>Email support</li>
                   <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque, commodi?
+                    In the hush of anticipation, silence becomes the stage for
+                    creativity to flourish
+                  </li>
+                  <li>
+                    Dumb Charades transcends words, transforming gestures into a
+                    vibrant tapestry of expression
+                  </li>
+                  <li>
+                    Join us for an electrifying journey where imagination reigns
+                    supreme, and each gesture tells a tale of wit and ingenuity
                   </li>
                 </ul>
-                <a href="#basic" className="card__cta cta">
-                  Get Started
+                target="_blank"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
+                  className="card__cta cta"
+                  target="_blank"
+                >
+                  Time To Start
                 </a>
               </div>
               <div className="cards__card card">
                 <h2 className="card__heading">Procedure</h2>
-                <p className="card__price">$19.99</p>
+                <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Access to advanced workouts and nutrition plans</li>
-                  <li>Priority Email support</li>
-                  <li>Exclusive access to live Q&amp;A sessions</li>
+                  <li>Maximum participants in the team is 2 or 3</li>
+                  <li>
+                    Participants must submit their research abstract within
+                    25/02/2024
+                  </li>
+                  <li>
+                    Shortlisted particpants will engage in a Q&amp; sessions
+                    with the judges
+                  </li>
+                  <li>
+                    Prizes will be given for winner of ₹xxxx and for runner
+                    ₹xxxx (Not yet decided, will be updated soon)
+                  </li>
                 </ul>
-                <a href="#pro" className="card__cta cta">
-                  Upgrade to Pro
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
+                  className="card__cta cta"
+                  target="_blank"
+                >
+                  Register Now
                 </a>
               </div>
               <div className="cards__card card">
                 <h2 className="card__heading">Contact</h2>
-                <p className="card__price">$29.99</p>
+                <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Access to all premium workouts and nutrition plans</li>
-                  <li>24/7 Priority support</li>
-                  <li>1-on-1 virtual coaching session every month</li>
-                  <li>Exclusive content and early access to new features</li>
+                  <li>Vignesh</li>
                 </ul>
-                <a href="#ultimate" className="card__cta cta">
-                  Go Ultimate
-                </a>
+                <Link to="/epulz/events" className="card__cta cta">
+                  Other Events
+                </Link>
               </div>
             </div>
             <div className="overlay cards__inner" />

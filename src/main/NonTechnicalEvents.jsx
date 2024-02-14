@@ -136,7 +136,7 @@ const NonTechnicalEvents = () => {
                       strategies redefine the landscape, captivating audiences
                       and reshaping industry standards.
                     </p>
-                    <Link className="show-more" to="/event/scam-2024">
+                    <Link className="show-more" to="/epulz/event/scam-2024">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -190,7 +190,7 @@ const NonTechnicalEvents = () => {
                       imagination reigns supreme, weaving captivating tales that
                       transport minds to magical realms.
                     </p>
-                    <Link className="show-more" to="/event/fable-forum">
+                    <Link className="show-more" to="/epulz/event/fable-forum">
                       <svg
                         fill="none"
                         stroke="currentColor"

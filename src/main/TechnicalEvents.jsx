@@ -82,7 +82,7 @@ const TechnicalEvents = () => {
                       rel="noopener"
                       title="Learn more"
                       className="show-more"
-                      to="/event/project-expo"
+                      to="/epulz/event/project-expo"
                     >
                       <svg
                         fill="none"
@@ -137,7 +137,7 @@ const TechnicalEvents = () => {
                       the depths of cutting-edge research and unveil the
                       brilliance within.
                     </p>
-                    <Link to="/event/mind-unfolded" className="show-more">
+                    <Link to="/epulz/event/mind-unfolded" className="show-more">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -191,7 +191,7 @@ const TechnicalEvents = () => {
                       reigns supreme, challenging minds to conquer perplexing
                       puzzles and unravel solutions.
                     </p>
-                    <Link className="show-more" to="/event/code-dilemma">
+                    <Link className="show-more" to="/epulz/event/code-dilemma">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -245,7 +245,7 @@ const TechnicalEvents = () => {
                       wit, knowledge, and quick thinking collide in an
                       electrifying technical quiz challenge.
                     </p>
-                    <Link className="show-more" to="/event/brain-buster">
+                    <Link className="show-more" to="/epulz/event/brain-buster">
                       <svg
                         fill="none"
                         stroke="currentColor"
