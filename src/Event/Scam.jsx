@@ -42,7 +42,7 @@ const Scam = () => {
               </div>
               <div className="cards__card card">
                 <h2 className="card__heading">Procedure</h2>
-                <p className="card__price">$19.99</p>
+                <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
                   <li>Maximum participants in the team is 2 or 3</li>
                   <li>
@@ -68,7 +68,7 @@ const Scam = () => {
               </div>
               <div className="cards__card card">
                 <h2 className="card__heading">Contact</h2>
-                <p className="card__price">$29.99</p>
+                <p className="card__price">Incharge</p>
                 <ul role="list" className="card__bullets flow">
                   <li>Vignesh</li>
                 </ul>

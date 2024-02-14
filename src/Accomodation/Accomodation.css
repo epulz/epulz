@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.accomodation {
+  max-width: 100%;
+  height: 250vh;
+
+  background-color: Black;
+  color: white;
+}
+
+.accomodation .container-fluid {
+  padding: 30px;
+}
+
+.accomodation .card-container2 {
+  width: 80%;
+  box-shadow: 0 0 25px hotpink, 0 0 25px hotpink;
+}
+
+.accomodation .h1 {
+  margin-top: 10%;
+  text-shadow: 0 0 5px hotpink, 0 0 25px hotpink;
+  font-size: 50px;
+}
+
+.accomodation .h2 {
+  font-size: 30px;
+  text-shadow: 0 0 5px red, 0 0 25px red;
+}
+
+.accomodation .p1 {
+  font-size: 23px;
+}
+
+.accomodation .p {
+  font-size: 25px;
+  text-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+.accomodation .p2 {
+  font-size: 20px;
+}
+
+.accomodation .h4 {
+  text-shadow: 0 0 5px magenta, 0 0 25px magenta;
+}
+
+.accomodation .icon {
+  font-size: 60px;
+}
+
+.accomodation .iconshadow {
+  text-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+@media (max-width: 768px) {
+  .accomodation .h1 {
+    margin-top: 50%;
+    font-size: 35px;
+  }
+
+  .accomodation .h2 {
+    font-size: 20px;
+  }
+
+  .accomodation .p1 {
+    font-size: 15px;
+  }
+
+  .accomodation .p {
+    font-size: 20px;
+  }
+
+  .accomodation .p2 {
+    font-size: 15px;
+  }
+
+  .accomodation .h4 {
+    font-size: 20px;
+  }
+
+  .accomodation .icon {
+    font-size: 40px;
+  }
+
+  .accomodation .iconshadow {
+    font-size: 40px;
+  }
+
+  .accomodation {
+    height: 250vh;
+  }
+}

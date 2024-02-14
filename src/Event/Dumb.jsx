@@ -35,7 +35,7 @@ const Dumb = () => {
                     supreme, and each gesture tells a tale of wit and ingenuity
                   </li>
                 </ul>
-                target="_blank"
+
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
                   className="card__cta cta"
@@ -72,7 +72,7 @@ const Dumb = () => {
               </div>
               <div className="cards__card card">
                 <h2 className="card__heading">Contact</h2>
-                <p className="card__price"></p>
+                <p className="card__price">Incharge</p>
                 <ul role="list" className="card__bullets flow">
                   <li>Vignesh</li>
                 </ul>

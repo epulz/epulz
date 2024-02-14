@@ -74,7 +74,7 @@ const Fable = () => {
                 <h2 className="card__heading">Contact</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Vighnesh</li>
+                  <li>Vignesh</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events
