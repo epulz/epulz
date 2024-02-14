@@ -61,7 +61,7 @@ const Footer = () => {
                     </a>
                   </li>
                 </Link>
-                <Link to="/events">
+                <Link to="/epulz/events">
                   <li className="footer-list-item">
                     <a href="#" className="footer-list-link">
                       Events

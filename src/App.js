@@ -44,7 +44,7 @@ function App() {
           }
         />
         <Route
-          path="/events"
+          path="/epulz/events"
           element={
             <Suspense fallback={<Loading />}>
               <Events />

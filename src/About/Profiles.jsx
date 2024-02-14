@@ -1,7 +1,6 @@
-import iron from "../assets/About/profiles/iron.jpg";
+import iron from "../assets/About/profiles/iron.jpeg";
 import cap from "../assets/About/profiles/cap.jpg";
-import superman from "../assets/About/profiles/super.jpg";
-import dr from "../assets/About/profiles/dr.jpg";
+import dr from "../assets/About/profiles/dr.jpeg";
 
 const Profiles = () => {
   return (
@@ -9,34 +8,26 @@ const Profiles = () => {
       <h1 id="staffHeading">Department Staffs</h1>
       <div class="gallery">
         <div class="box">
-          <img src={iron} alt="*" />
-          <div class="details">
-            <h2>karthi</h2>
-            <p>HOD</p>
-          </div>
-        </div>
-
-        <div class="box">
           <img src={cap} alt="*" />
           <div class="details">
-            <h2>sridhar</h2>
-            <p>professor</p>
+            <h2>Dr.P.K.Palani,B.E.,(HONS).,M.E.,Ph.D.,</h2>
+            <p>Principal</p>
           </div>
         </div>
 
         <div class="box">
-          <img src={superman} alt="*" />
+          <img src={iron} alt="*" />
           <div class="details">
-            <h2>ragu</h2>
-            <p>editor</p>
+            <h2>Dr.J.Sreerambabu,Ph.D.,PDF.,</h2>
+            <p>Vice Principal</p>
           </div>
         </div>
 
         <div class="box">
           <img src={dr} alt="*" />
           <div class="details">
-            <h2>sam</h2>
-            <p>principal</p>
+            <h2>Dr.S.Letitia,M.E.,Ph.D.,</h2>
+            <p>HOD</p>
           </div>
         </div>
       </div>

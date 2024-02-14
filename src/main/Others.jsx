@@ -1157,7 +1157,7 @@ const Others = () => {
                     <h1 class="glitch" data-text="Events">
                       Events
                     </h1>
-                    <Link to="/events">
+                    <Link to="/epulz/events">
                       <button className="rounded-pill">
                         <div className="default-btn">
                           <span>Hey</span>

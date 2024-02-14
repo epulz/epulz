@@ -178,8 +178,10 @@ h1#staffHeading {
 }
 .details h2 {
   color: purple;
+  font-size: 1rem;
   font-weight: 800;
   padding-bottom: 5px;
+  margin-bottom: 0;
   text-transform: capitalize;
 }
 .box:hover {
@@ -284,6 +286,7 @@ h1#staffHeading {
     height: 100%;
     left: 0;
     top: 0;
+    gap: 20px;
     display: flex;
     transition: 1s;
   }
@@ -346,7 +349,7 @@ h1#staffHeading {
 
   #profile {
     width: 100vw;
-    height: 230vh;
+    height: 170vh;
     display: flex;
     align-items: center;
     justify-content: center;
