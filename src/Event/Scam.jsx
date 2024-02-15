@@ -44,19 +44,19 @@ const Scam = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
                   <li>
-                    Participants must submit their research abstract within
-                    25/02/2024
+                    This event is to test the advertising and marketing skills
+                    of the participants
                   </li>
                   <li>
-                    Shortlisted particpants will engage in a Q&amp; sessions
-                    with the judges
+                    You will be provided with the idea of pitching a product
                   </li>
                   <li>
-                    Prizes will be given for winner of ₹xxxx and for runner
-                    ₹xxxx (Not yet decided, will be updated soon)
+                    Prior preparation time will be given to the participants
                   </li>
+                  <li>You need to pitch the product to the audience</li>
+                  <li>You can use whatever details and lies they want to</li>
+                  <li>This is to test the creativity of the students</li>
                 </ul>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
@@ -70,7 +70,7 @@ const Scam = () => {
                 <h2 className="card__heading">Contact</h2>
                 <p className="card__price">Incharge</p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Vignesh</li>
+                  <li>Vignesh P - 9345595662</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

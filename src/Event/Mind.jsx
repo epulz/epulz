@@ -67,8 +67,8 @@ const Mind = () => {
                     with the judges
                   </li>
                   <li>
-                    Prizes will be given for winner of ₹xxxx and for runner
-                    ₹xxxx (Not yet decided, will be updated soon)
+                    Prizes will be given for winner as ₹1500, first runner as
+                    ₹1000 and second runner as ₹500
                   </li>
                 </ul>
                 <a

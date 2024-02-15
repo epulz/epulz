@@ -106,7 +106,7 @@ const Navigation = () => {
                   </a>
                 </li>
               </Link>
-              <Link to="/epulz/accomodation" onClick={closeOffcanvas}>
+              <Link to="/epulz/accommodation" onClick={closeOffcanvas}>
                 <li
                   className="nav-item"
                   data-bs-dismiss="offcanvas"
@@ -118,7 +118,7 @@ const Navigation = () => {
                     href="#"
                     onClick={closeOffcanvas}
                   >
-                    Accomodations
+                    Accommodation
                   </a>
                 </li>
               </Link>

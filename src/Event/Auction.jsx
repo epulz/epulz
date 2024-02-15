@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom";
 import "./Event.css";
 
-const Dumb = () => {
+const Auction = () => {
   return (
     <div className="ultimate-main">
       <div className="ultimate">
@@ -15,7 +15,7 @@ const Dumb = () => {
           id="backVideo"
         />
         <main className="mind-main flow">
-          <h1 className="text-center tech-title">Dumb Charades</h1>
+          <h1 className="text-center tech-title">Bid Wars</h1>
           <div className="main__cards cards">
             <div className="cards__inner">
               <div className="cards__card card">
@@ -23,19 +23,18 @@ const Dumb = () => {
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
                   <li>
-                    In the hush of anticipation, silence becomes the stage for
-                    creativity to flourish
+                    Step into the arena of sporting supremacy, where fortunes
+                    are made and legends born
                   </li>
                   <li>
-                    Dumb Charades transcends words, transforming gestures into a
-                    vibrant tapestry of expression
+                    In this electrifying IPL auction, team owners engage in a
+                    high-stakes battle for the cricketing elite
                   </li>
                   <li>
-                    Join us for an electrifying journey where imagination reigns
-                    supreme, and each gesture tells a tale of wit and ingenuity
+                    Witness the drama, the strategy, and the exhilarating
+                    pursuit of victory unfold before your eyes
                   </li>
                 </ul>
-
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
                   className="card__cta cta"
@@ -48,18 +47,23 @@ const Dumb = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
+                  <li>Total players in team - 11</li>
+                  <li>Purse Amount - 100 Cr.</li>
                   <li>
-                    Participants must submit their research abstract within
-                    25/02/2024
+                    Conditions: <br />* There should be at least 3 batsmen.{" "}
+                    <br />
+                    * There should be at least 3 bowlers. <br />
+                    * There should be at least 1 allrounder. <br />
+                    * There should be at least 1 wicketkeeper. <br />
                   </li>
                   <li>
-                    Shortlisted particpants will engage in a Q&amp; sessions
-                    with the judges
+                    Failure in fulfilling these criteria will lead to
+                    disqualification of the team.
                   </li>
                   <li>
-                    Prizes will be given for winner of ₹xxxx and for runner
-                    ₹xxxx (Not yet decided, will be updated soon)
+                    Till 1 Cr the bid will be increased by 10 lakhs,1-5 Cr the
+                    bid will be increased by 20 lakhs,5 Cr and above the bid
+                    will be increased by 50 lakhs.
                   </li>
                 </ul>
                 <a
@@ -72,9 +76,11 @@ const Dumb = () => {
               </div>
               <div className="cards__card card">
                 <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharge</p>
+                <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Vignesh</li>
+                  <li>Mohan P - 8248864258</li>
+                  <li>Sarankumar S - 8248149420</li>
+                  <li>Giftson - 6379109681</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events
@@ -89,4 +95,4 @@ const Dumb = () => {
   );
 };
 
-export default Dumb;
+export default Auction;

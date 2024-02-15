@@ -5,7 +5,7 @@ import dr from "../assets/About/profiles/dr.jpeg";
 const Profiles = () => {
   return (
     <section id="profile">
-      <h1 id="staffHeading">Department Staffs</h1>
+      <h1 id="staffHeading">Principal & Faculty</h1>
       <div class="gallery">
         <div class="box">
           <img src={cap} alt="*" />

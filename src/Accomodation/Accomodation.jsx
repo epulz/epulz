@@ -10,7 +10,7 @@ const Accomodation = () => {
   return (
     <div className="accomodation">
       <div className="container-fluid d-flex flex-column justify-content-end">
-        <h1 className="text-center h1">ACCOMODATION</h1>
+        <h1 className="text-center h1">ACCOMMODATION</h1>
         <p className="text-center p mt-5 mb-3">
           For participants coming from far distance & other states,
           <br />
@@ -60,15 +60,15 @@ const Accomodation = () => {
         <div className="text-center mb-5 mt-5">
           <h4 className="h2">For More Details:</h4>
           <p1 className="p1">
-            Dinesh R
+            Sujith Barathi T - 8610395558
             <br />
-            rdineshrdp@gmail.com
+            Jeevanantham - 6379298842
             <br />
-            7904873545
+            Robson Dias - 8940606391
           </p1>
         </div>
         <section id="gallery-carousel">
-          <h1 id="staffHeading">EPULZ 2K22</h1>
+          <h1 id="staffHeading">Boys & Girls Hostel</h1>
           <div
             id="carouselExampleIndicators"
             class="carousel slide"

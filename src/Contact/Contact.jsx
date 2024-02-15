@@ -25,8 +25,11 @@ const Contact = () => {
               <i className="ri-phone-fill" />
             </span>
             <div id="value">
-              <h1>Phone</h1>
-              <p>8072890485</p>
+              <h1>Phone - Helpdesk</h1>
+              <p>Sujith Barathi - 8610395558</p>
+              <p>Jeevanantham - 6379298842</p>
+              <p>Vishnu Dharshan - 9597767721</p>
+              <p>Dinesh - 7904873545 </p>
             </div>
           </div>
           <div id="email">
@@ -35,7 +38,7 @@ const Contact = () => {
             </span>
             <div id="value">
               <h1>Email</h1>
-              <p>epulztpgit@gmail.com</p>
+              <p>epulz2k24@gmail.com</p>
             </div>
           </div>
         </div>

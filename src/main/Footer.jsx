@@ -25,13 +25,13 @@ const Footer = () => {
                   <span>epulz2k24</span>
                 </a>
                 <a
-                  href="https://www.instagram.com/epulz_3.0?igsh=aDI5ZmpvZWZtdDNx"
+                  href="https://www.instagram.com/tpgit_ece?igsh=dmRleWtuMG4yb3Bm"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <i class="fab fa-instagram"></i>
                   <span>|</span>
-                  <span>epulz_3.0</span>
+                  <span>tpgit_ece</span>
                 </a>
                 <a
                   href="https://github.com/epulz/epulz"

@@ -16,8 +16,8 @@ const Events = lazy(() => import("./Events/Events"));
 const Mind = lazy(() => import("./Event/Mind"));
 const Brain = lazy(() => import("./Event/Brain"));
 const CodeDilemma = lazy(() => import("./Event/CodeDilemma"));
-const Fable = lazy(() => import("./Event/Fable"));
-const Dumb = lazy(() => import("./Event/Dumb"));
+const Auction = lazy(() => import("./Event/Auction"));
+const Photography = lazy(() => import("./Event/Photography"));
 const Project = lazy(() => import("./Event/Project"));
 const Scam = lazy(() => import("./Event/Scam"));
 const Accomodation = lazy(() => import("./Accomodation/Accomodation"));
@@ -78,18 +78,18 @@ function App() {
           }
         />
         <Route
-          path="/epulz/event/fable-forum"
+          path="/epulz/event/bid-wars"
           element={
             <Suspense fallback={<Loading />}>
-              <Fable />
+              <Auction />
             </Suspense>
           }
         />
         <Route
-          path="/epulz/event/dumb-charades"
+          path="/epulz/event/photography"
           element={
             <Suspense fallback={<Loading />}>
-              <Dumb />
+              <Photography />
             </Suspense>
           }
         />
@@ -110,7 +110,7 @@ function App() {
           }
         />
         <Route
-          path="/epulz/accomodation"
+          path="/epulz/accommodation"
           element={
             <Suspense fallback={<Loading />}>
               <Accomodation />
