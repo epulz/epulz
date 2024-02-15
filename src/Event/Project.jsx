@@ -45,7 +45,7 @@ const Project = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
+                  <li>Maximum participants in the team is 2</li>
                   <li>
                     Participants must submit their research abstract within
                     25/02/2024
@@ -70,8 +70,12 @@ const Project = () => {
                 </a>
               </div>
               <div className="cards__card card">
-                <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharge</p>
+                <h2 className="card__heading">Fees & Contact</h2>
+                <p className="card__price">
+                  For Individual ₹200 per Head <br />
+                  For Team ₹300 per Team <br />
+                  *No registration fee for other state's colleges
+                </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Manoharan J R - 9487375373</li>
                   <li>Mohan P - 8248864258</li>

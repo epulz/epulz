@@ -67,10 +67,15 @@ const Scam = () => {
                 </a>
               </div>
               <div className="cards__card card">
-                <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharge</p>
+                <h2 className="card__heading">Fees & Contact</h2>
+                <p className="card__price">
+                  For Individual ₹200 per Head <br />
+                  For Team ₹300 per Team <br />
+                  *No registration fee for other state's colleges
+                </p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Vignesh P - 9345595662</li>
+                  <li>Srinath - 6381540230</li>
+                  <li>Makatan - 9488238548</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

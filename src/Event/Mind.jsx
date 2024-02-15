@@ -54,16 +54,17 @@ const Mind = () => {
                 <p className="card__price"></p>
 
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
+                  <li>Maximum participants in the team is 2</li>
                   <li>
                     Participants must submit their research abstract within
                     25/02/2024
                   </li>
                   <li>Abstract must adhere to IEEE format</li>
+                  <li>Abstract must be mailed to epulz2k24@gmail.com</li>
                   <li>Each team will have 5-15 minutes to present</li>
                   <li>Each team should bring the hard copy of the ppt.</li>
                   <li>
-                    Shortlisted particpants will engage in a Q&amp; sessions
+                    Shortlisted particpants will engage in a Q&amp;A sessions
                     with the judges
                   </li>
                   <li>
@@ -80,11 +81,17 @@ const Mind = () => {
                 </a>
               </div>
               <div className="cards__card card">
-                <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharges</p>
+                <h2 className="card__heading">Fees & Contact</h2>
+                <p className="card__price">
+                  For Individual ₹200 per Head <br />
+                  For Team ₹300 per Team <br />
+                  *No registration fee for other state's colleges
+                </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Dinesh R - 7904873545</li>
                   <li>Shalini</li>
+                  <li>Bhargavi</li>
+                  <li>Kalaivani</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

@@ -50,19 +50,22 @@ const Photography = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
+                  <li>Maximum participants 1</li>
                   <li>
-                    Participants must submit their research abstract within
-                    25/02/2024
+                    There will be 2 rounds, <br />
+                    <strong>Round 1</strong> <br />* Participants must submit
+                    their Photo within 25/02/2024 <br />* Shortlisted
+                    Participants will be notified by next day through their
+                    registered e-mail
                   </li>
                   <li>
-                    Shortlisted particpants will engage in a Q&amp; sessions
-                    with the judges
+                    <strong>Round 2</strong> <br />
+                    * Shorlisted Participants are eligible for 2nd round <br />*
+                    2nd round will be ofline mode, the participants are ask to
+                    take photo's inside the campus and they will allowed 30 mins
+                    for editing
                   </li>
-                  <li>
-                    Prizes will be given for winner of ₹xxxx and for runner
-                    ₹xxxx (Not yet decided, will be updated soon)
-                  </li>
+                  <li>Certificates will be given for winner</li>
                 </ul>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
@@ -73,8 +76,12 @@ const Photography = () => {
                 </a>
               </div>
               <div className="cards__card card">
-                <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharge</p>
+                <h2 className="card__heading">Fees & Contact</h2>
+                <p className="card__price">
+                  For Individual ₹200 per Head <br />
+                  For Team ₹300 per Team <br />
+                  *No registration fee for other state's colleges
+                </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Santhosh - 6383880199</li>
                   <li>Bharath - 9626915526</li>

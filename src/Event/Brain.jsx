@@ -50,18 +50,24 @@ const Brain = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
                   <li>
-                    Participants must submit their research abstract within
-                    25/02/2024
+                    Topics - Digital electronics, Microcontroller and
+                    microprocessor, Embedded systems, Dsp, Wireless sensors
                   </li>
                   <li>
-                    Shortlisted particpants will engage in a Q&amp; sessions
-                    with the judges
+                    According to the number of participants, Batch will be
+                    divided
                   </li>
                   <li>
-                    Prizes will be given for winner of ₹xxxx and for runner
-                    ₹xxxx (Not yet decided, will be updated soon)
+                    In Round 1 we have 25 questions and each questions carry 2
+                    marks And 30 sec per question
+                  </li>
+                  <li>
+                    The maximum correct answered contestant will be selected for
+                    Round 2
+                  </li>
+                  <li>
+                    For round 2, we will conduct between winners of two batches.
                   </li>
                 </ul>
                 <a
@@ -73,10 +79,14 @@ const Brain = () => {
                 </a>
               </div>
               <div className="cards__card card">
-                <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharges</p>
+                <h2 className="card__heading">Fees & Contact</h2>
+                <p className="card__price">
+                  For Individual ₹200 per Head <br />
+                  For Team ₹300 per Team <br />
+                  *No registration fee for other state's colleges
+                </p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Sujith Barathi T- 8610395558</li>
+                  <li>Dinesh R - 7904873545</li>
                   <li>Vanmozhi M </li>
                   <li>Nivedha S</li>
                 </ul>

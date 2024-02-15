@@ -47,11 +47,16 @@ const CodeDilemma = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants in the team is 2 or 3</li>
-                  <li>A laptop per team is enough(must have an IDE to work)</li>
+                  <li>Alloted duration will be 1 hour.</li>
                   <li>
-                    Prizes will be given for winner of ₹xxxx and for runner
-                    ₹xxxx (Not yet decided, will be updated soon)
+                    Language to be used to build the logic is{" "}
+                    <strong>C Language</strong>
+                  </li>
+                  <li>Total number of questions will be 5.</li>
+                  <li>
+                    Marks will be alloted based on the efficiency of your code{" "}
+                    {""}
+                    <strong>logical thing</strong>
                   </li>
                 </ul>
                 <a
@@ -63,8 +68,12 @@ const CodeDilemma = () => {
                 </a>
               </div>
               <div className="cards__card card">
-                <h2 className="card__heading">Contact</h2>
-                <p className="card__price">Incharges</p>
+                <h2 className="card__heading">Fees & Contact</h2>
+                <p className="card__price">
+                  For Individual ₹200 per Head <br />
+                  For Team ₹300 per Team <br />
+                  *No registration fee for other state's colleges
+                </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Vishnu Dharshan N- 9597767721</li>
                 </ul>
