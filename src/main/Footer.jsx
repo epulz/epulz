@@ -68,11 +68,13 @@ const Footer = () => {
                     </a>
                   </li>
                 </Link>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
-                    Accomodations
-                  </a>
-                </li>
+                <Link to="/epulz/accomodation">
+                  <li className="footer-list-item">
+                    <a href="#" className="footer-list-link">
+                      Accomodations
+                    </a>
+                  </li>
+                </Link>
                 <li className="footer-list-item">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
@@ -82,11 +84,13 @@ const Footer = () => {
                     Register
                   </a>
                 </li>
-                <li className="footer-list-item">
-                  <a href="#" className="footer-list-link">
-                    Contact Us
-                  </a>
-                </li>
+                <Link to="/epulz/contact-us">
+                  <li className="footer-list-item">
+                    <a href="#" className="footer-list-link">
+                      Contact Us
+                    </a>
+                  </li>
+                </Link>
               </ul>
             </div>
             <div className="col-lg-4 my-3">

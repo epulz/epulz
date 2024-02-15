@@ -122,7 +122,7 @@ const Navigation = () => {
                   </a>
                 </li>
               </Link>
-              <Link to="/events" onClick={closeOffcanvas}>
+              <Link to="/epulz/contact-us" onClick={closeOffcanvas}>
                 <li
                   className="nav-item"
                   data-bs-dismiss="offcanvas"

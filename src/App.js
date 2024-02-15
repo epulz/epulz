@@ -21,6 +21,7 @@ const Dumb = lazy(() => import("./Event/Dumb"));
 const Project = lazy(() => import("./Event/Project"));
 const Scam = lazy(() => import("./Event/Scam"));
 const Accomodation = lazy(() => import("./Accomodation/Accomodation"));
+const Contact = lazy(() => import("./Contact/Contact"));
 
 function App() {
   return (
@@ -113,6 +114,14 @@ function App() {
           element={
             <Suspense fallback={<Loading />}>
               <Accomodation />
+            </Suspense>
+          }
+        />
+        <Route
+          path="/epulz/contact-us"
+          element={
+            <Suspense fallback={<Loading />}>
+              <Contact />
             </Suspense>
           }
         />
