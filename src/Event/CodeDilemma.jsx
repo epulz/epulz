@@ -66,7 +66,6 @@ const CodeDilemma = () => {
                 <h2 className="card__heading">Contact</h2>
                 <p className="card__price">Incharges</p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Delhi Ganesh - 9677929740</li>
                   <li>Vishnu Dharshan N- 9597767721</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
