@@ -55,10 +55,14 @@ const Project = () => {
                     What are the components and how much power supply needed has
                     to mention in the abstract
                   </li>
+                  <li>
+                    Abstract must be mailed to{" "}
+                    <strong>epulz2k24@gmail.com</strong>
+                  </li>
                   <li>Shortlisted students will have Q&amp;A sessions</li>
                   <li>
-                    Prizes will be given for winner as ₹2000, first runner as
-                    ₹1000 and second runner as ₹500
+                    Prizes will be given for winner as Rs.2000, first runner as
+                    Rs.1000 and second runner as ₹500
                   </li>
                 </ul>
                 <a
@@ -72,8 +76,8 @@ const Project = () => {
               <div className="cards__card card">
                 <h2 className="card__heading">Fees & Contact</h2>
                 <p className="card__price">
-                  For Individual ₹200 per Head <br />
-                  For Team ₹300 per Team <br />
+                  For Individual Rs.200 per Head <br />
+                  For Team Rs.300 per Team <br />
                   *No registration fee for other state's colleges
                 </p>
                 <ul role="list" className="card__bullets flow">

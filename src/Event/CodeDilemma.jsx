@@ -70,12 +70,13 @@ const CodeDilemma = () => {
               <div className="cards__card card">
                 <h2 className="card__heading">Fees & Contact</h2>
                 <p className="card__price">
-                  For Individual ₹200 per Head <br />
-                  For Team ₹300 per Team <br />
+                  For Individual Rs.200 per Head <br />
+                  For Team Rs.300 per Team <br />
                   *No registration fee for other state's colleges
                 </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Vishnu Dharshan N- 9597767721</li>
+                  <li>Manoharan J R - 9487375373</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

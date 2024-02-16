@@ -68,6 +68,11 @@ const Mind = () => {
                     with the judges
                   </li>
                   <li>
+                    This event is going to conduct by two separate sections. So,
+                    Both section of winners will be treated by prizes (So, 3 + 3
+                    = 6 teams will get prize)
+                  </li>
+                  <li>
                     Prizes will be given for winner as ₹1500, first runner as
                     ₹1000 and second runner as ₹500
                   </li>
@@ -83,8 +88,8 @@ const Mind = () => {
               <div className="cards__card card">
                 <h2 className="card__heading">Fees & Contact</h2>
                 <p className="card__price">
-                  For Individual ₹200 per Head <br />
-                  For Team ₹300 per Team <br />
+                  For Individual Rs.200 per Head <br />
+                  For Team Rs.300 per Team <br />
                   *No registration fee for other state's colleges
                 </p>
                 <ul role="list" className="card__bullets flow">

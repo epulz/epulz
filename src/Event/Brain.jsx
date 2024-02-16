@@ -81,12 +81,13 @@ const Brain = () => {
               <div className="cards__card card">
                 <h2 className="card__heading">Fees & Contact</h2>
                 <p className="card__price">
-                  For Individual ₹200 per Head <br />
-                  For Team ₹300 per Team <br />
+                  For Individual Rs.200 per Head <br />
+                  For Team Rs.300 per Team <br />
                   *No registration fee for other state's colleges
                 </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Dinesh R - 7904873545</li>
+                  <li>Saran Kumar S - 8248149420</li>
                   <li>Vanmozhi M </li>
                   <li>Nivedha S</li>
                 </ul>

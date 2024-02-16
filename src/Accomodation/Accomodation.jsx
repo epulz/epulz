@@ -1,6 +1,6 @@
 import "./Accomodation.css";
 import "../About/About.css";
-import Hostel1 from "../assets/Accomodation/Hostel.jpeg";
+import Hostel1 from "../assets/Accomodation/Hostel.jpg";
 import Hostel2 from "../assets/Accomodation/Hostel2.jpg";
 import Hostel3 from "../assets/Accomodation/Hostel3.jpg";
 import Hostel4 from "../assets/Accomodation/Hostel4.jpg";
