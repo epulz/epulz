@@ -14,7 +14,7 @@ const Accomodation = () => {
         <p className="text-center p mt-5 mb-3">
           For participants coming from far distance & other states,
           <br />
-          Accomodation(hostel) will be provided and free of cost for them.
+          Accommodation(hostel) will be provided and free of cost for them.
         </p>
         <div className="m-auto">
           <div className="d-flex flex-row">
