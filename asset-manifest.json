@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/epulz/static/css/main.da5cfdec.css",
-    "main.js": "/epulz/static/js/main.d05ad816.js",
+    "main.js": "/epulz/static/js/main.ee1eb3b1.js",
     "static/css/240.be30a726.chunk.css": "/epulz/static/css/240.be30a726.chunk.css",
     "static/js/240.3fe36c3d.chunk.js": "/epulz/static/js/240.3fe36c3d.chunk.js",
     "static/css/968.59718434.chunk.css": "/epulz/static/css/968.59718434.chunk.css",
@@ -23,7 +23,7 @@
     "static/css/936.f73b7935.chunk.css": "/epulz/static/css/936.f73b7935.chunk.css",
     "static/js/936.f1cb302f.chunk.js": "/epulz/static/js/936.f1cb302f.chunk.js",
     "static/css/904.72723e51.chunk.css": "/epulz/static/css/904.72723e51.chunk.css",
-    "static/js/904.44838e4f.chunk.js": "/epulz/static/js/904.44838e4f.chunk.js",
+    "static/js/904.635c7ff0.chunk.js": "/epulz/static/js/904.635c7ff0.chunk.js",
     "static/css/956.2a6eac0a.chunk.css": "/epulz/static/css/956.2a6eac0a.chunk.css",
     "static/js/956.d85a04b8.chunk.js": "/epulz/static/js/956.d85a04b8.chunk.js",
     "static/js/228.5e72fa9e.chunk.js": "/epulz/static/js/228.5e72fa9e.chunk.js",
@@ -55,7 +55,7 @@
     "static/media/iron.jpeg": "/epulz/static/media/iron.e8d0f6e7a35a0507c959.jpeg",
     "index.html": "/epulz/index.html",
     "main.da5cfdec.css.map": "/epulz/static/css/main.da5cfdec.css.map",
-    "main.d05ad816.js.map": "/epulz/static/js/main.d05ad816.js.map",
+    "main.ee1eb3b1.js.map": "/epulz/static/js/main.ee1eb3b1.js.map",
     "240.be30a726.chunk.css.map": "/epulz/static/css/240.be30a726.chunk.css.map",
     "240.3fe36c3d.chunk.js.map": "/epulz/static/js/240.3fe36c3d.chunk.js.map",
     "968.59718434.chunk.css.map": "/epulz/static/css/968.59718434.chunk.css.map",
@@ -77,13 +77,13 @@
     "936.f73b7935.chunk.css.map": "/epulz/static/css/936.f73b7935.chunk.css.map",
     "936.f1cb302f.chunk.js.map": "/epulz/static/js/936.f1cb302f.chunk.js.map",
     "904.72723e51.chunk.css.map": "/epulz/static/css/904.72723e51.chunk.css.map",
-    "904.44838e4f.chunk.js.map": "/epulz/static/js/904.44838e4f.chunk.js.map",
+    "904.635c7ff0.chunk.js.map": "/epulz/static/js/904.635c7ff0.chunk.js.map",
     "956.2a6eac0a.chunk.css.map": "/epulz/static/css/956.2a6eac0a.chunk.css.map",
     "956.d85a04b8.chunk.js.map": "/epulz/static/js/956.d85a04b8.chunk.js.map",
     "228.5e72fa9e.chunk.js.map": "/epulz/static/js/228.5e72fa9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da5cfdec.css",
-    "static/js/main.d05ad816.js"
+    "static/js/main.ee1eb3b1.js"
   ]
 }
