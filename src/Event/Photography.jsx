@@ -50,22 +50,22 @@ const Photography = () => {
                 <h2 className="card__heading">Procedure</h2>
                 <p className="card__price"></p>
                 <ul role="list" className="card__bullets flow">
-                  <li>Maximum participants 1</li>
+                  <li>Maximum participant is 1</li>
                   <li>
                     There will be 2 rounds, <br />
                     <strong>Round 1</strong> <br />* Participants must submit
                     their Photo within 25/02/2024 <br />* Shortlisted
                     Participants will be notified by next day through their
-                    registered e-mail
+                    registered e-mail ID
                   </li>
                   <li>
                     <strong>Round 2</strong> <br />
                     * Shorlisted Participants are eligible for 2nd round <br />*
-                    2nd round will be ofline mode, the participants are ask to
-                    take photo's inside the campus and they will allowed 30 mins
-                    for editing
+                    2nd round will be offline mode, the participants are ask to
+                    take photo's inside the campus and they will be allowed to
+                    30 mins for editing
                   </li>
-                  <li>Certificates will be given for winner</li>
+                  <li>Certificates and gifts will be given for winner</li>
                 </ul>
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
@@ -80,7 +80,7 @@ const Photography = () => {
                 <p className="card__price">
                   For Individual Rs.200 per Head <br />
                   For Team Rs.300 per Team <br />
-                  *No registration fee for other state's colleges
+                  *No registration fee for other state college students
                 </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Santhosh - 6383880199</li>

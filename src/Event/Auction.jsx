@@ -53,15 +53,15 @@ const Auction = () => {
                     Conditions: <br />* There should be at least 3 batsmen.{" "}
                     <br />
                     * There should be at least 3 bowlers. <br />
-                    * There should be at least 1 allrounder. <br />
-                    * There should be at least 1 wicketkeeper. <br />
+                    * There should be at least 1 all rounder. <br />
+                    * There should be at least 1 wicket keeper. <br />
                   </li>
                   <li>
                     Failure in fulfilling these criteria will lead to
                     disqualification of the team.
                   </li>
                   <li>
-                    Till 1 Cr the bid will be increased by 10 lakhs,1-5 Cr the
+                    Till 1 Cr, the bid will be increased by 10 lakhs,1-5 Cr the
                     bid will be increased by 20 lakhs,5 Cr and above the bid
                     will be increased by 50 lakhs.
                   </li>
@@ -79,7 +79,7 @@ const Auction = () => {
                 <p className="card__price">
                   For Individual Rs.200 per Head <br />
                   For Team Rs.300 per Team <br />
-                  *No registration fee for other state's colleges
+                  *No registration fee for other state college students
                 </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Mohan P - 8248864258</li>

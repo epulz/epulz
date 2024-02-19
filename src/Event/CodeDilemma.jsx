@@ -72,7 +72,7 @@ const CodeDilemma = () => {
                 <p className="card__price">
                   For Individual Rs.200 per Head <br />
                   For Team Rs.300 per Team <br />
-                  *No registration fee for other state's colleges
+                  *No registration fee for other state college students
                 </p>
                 <ul role="list" className="card__bullets flow">
                   <li>Vishnu Dharshan N- 9597767721</li>
