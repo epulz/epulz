@@ -3,7 +3,7 @@
 .contact-body {
   padding: 20px;
   height: 130vh;
-  width: 100vw;
+  max-width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets//Contact/contact.jpg");
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Rubik", sans-serif;
   color: white;
   box-sizing: border-box;
