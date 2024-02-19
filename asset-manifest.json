@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/epulz/static/css/main.da5cfdec.css",
-    "main.js": "/epulz/static/js/main.0267eae7.js",
+    "main.js": "/epulz/static/js/main.9e694923.js",
     "static/css/240.be30a726.chunk.css": "/epulz/static/css/240.be30a726.chunk.css",
     "static/js/240.3fe36c3d.chunk.js": "/epulz/static/js/240.3fe36c3d.chunk.js",
-    "static/css/540.c8b43b68.chunk.css": "/epulz/static/css/540.c8b43b68.chunk.css",
+    "static/css/540.1f75bf3c.chunk.css": "/epulz/static/css/540.1f75bf3c.chunk.css",
     "static/js/540.47083374.chunk.js": "/epulz/static/js/540.47083374.chunk.js",
     "static/css/600.b1bc83b7.chunk.css": "/epulz/static/css/600.b1bc83b7.chunk.css",
     "static/js/600.c8c5fe46.chunk.js": "/epulz/static/js/600.c8c5fe46.chunk.js",
@@ -22,9 +22,9 @@
     "static/js/456.bd02574e.chunk.js": "/epulz/static/js/456.bd02574e.chunk.js",
     "static/css/936.609a8250.chunk.css": "/epulz/static/css/936.609a8250.chunk.css",
     "static/js/936.6894539b.chunk.js": "/epulz/static/js/936.6894539b.chunk.js",
-    "static/css/904.006163f1.chunk.css": "/epulz/static/css/904.006163f1.chunk.css",
+    "static/css/904.2f0ba456.chunk.css": "/epulz/static/css/904.2f0ba456.chunk.css",
     "static/js/904.635c7ff0.chunk.js": "/epulz/static/js/904.635c7ff0.chunk.js",
-    "static/css/956.2a6eac0a.chunk.css": "/epulz/static/css/956.2a6eac0a.chunk.css",
+    "static/css/956.11bcf1d9.chunk.css": "/epulz/static/css/956.11bcf1d9.chunk.css",
     "static/js/956.7efd9741.chunk.js": "/epulz/static/js/956.7efd9741.chunk.js",
     "static/js/228.5e72fa9e.chunk.js": "/epulz/static/js/228.5e72fa9e.chunk.js",
     "static/media/Poster.jpg": "/epulz/static/media/Poster.1ee00a524af68d5befc3.jpg",
@@ -54,10 +54,10 @@
     "static/media/cap.jpg": "/epulz/static/media/cap.ed2f70819298497e953f.jpg",
     "index.html": "/epulz/index.html",
     "main.da5cfdec.css.map": "/epulz/static/css/main.da5cfdec.css.map",
-    "main.0267eae7.js.map": "/epulz/static/js/main.0267eae7.js.map",
+    "main.9e694923.js.map": "/epulz/static/js/main.9e694923.js.map",
     "240.be30a726.chunk.css.map": "/epulz/static/css/240.be30a726.chunk.css.map",
     "240.3fe36c3d.chunk.js.map": "/epulz/static/js/240.3fe36c3d.chunk.js.map",
-    "540.c8b43b68.chunk.css.map": "/epulz/static/css/540.c8b43b68.chunk.css.map",
+    "540.1f75bf3c.chunk.css.map": "/epulz/static/css/540.1f75bf3c.chunk.css.map",
     "540.47083374.chunk.js.map": "/epulz/static/js/540.47083374.chunk.js.map",
     "600.b1bc83b7.chunk.css.map": "/epulz/static/css/600.b1bc83b7.chunk.css.map",
     "600.c8c5fe46.chunk.js.map": "/epulz/static/js/600.c8c5fe46.chunk.js.map",
@@ -75,14 +75,14 @@
     "456.bd02574e.chunk.js.map": "/epulz/static/js/456.bd02574e.chunk.js.map",
     "936.609a8250.chunk.css.map": "/epulz/static/css/936.609a8250.chunk.css.map",
     "936.6894539b.chunk.js.map": "/epulz/static/js/936.6894539b.chunk.js.map",
-    "904.006163f1.chunk.css.map": "/epulz/static/css/904.006163f1.chunk.css.map",
+    "904.2f0ba456.chunk.css.map": "/epulz/static/css/904.2f0ba456.chunk.css.map",
     "904.635c7ff0.chunk.js.map": "/epulz/static/js/904.635c7ff0.chunk.js.map",
-    "956.2a6eac0a.chunk.css.map": "/epulz/static/css/956.2a6eac0a.chunk.css.map",
+    "956.11bcf1d9.chunk.css.map": "/epulz/static/css/956.11bcf1d9.chunk.css.map",
     "956.7efd9741.chunk.js.map": "/epulz/static/js/956.7efd9741.chunk.js.map",
     "228.5e72fa9e.chunk.js.map": "/epulz/static/js/228.5e72fa9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da5cfdec.css",
-    "static/js/main.0267eae7.js"
+    "static/js/main.9e694923.js"
   ]
 }
