@@ -62,7 +62,7 @@ const Project = () => {
                   <li>Shortlisted students will have Q&amp;A sessions</li>
                   <li>
                     Prizes will be given for winner as Rs.2000, first runner as
-                    Rs.1000 and second runner as ₹500
+                    Rs.1000 and second runner as Rs.500
                   </li>
                 </ul>
                 <a
