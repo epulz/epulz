@@ -88,6 +88,7 @@ const Brain = () => {
                 <ul role="list" className="card__bullets flow">
                   <li>Dinesh R - 7904873545</li>
                   <li>Saran Kumar S - 8248149420</li>
+                  <li>Nishok - 9360715570</li>
                   <li>Vanmozhi M </li>
                   <li>Nivedha S</li>
                 </ul>

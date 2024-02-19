@@ -76,6 +76,8 @@ const Scam = () => {
                 <ul role="list" className="card__bullets flow">
                   <li>Srinath - 6381540230</li>
                   <li>Makatan - 9488238548</li>
+                  <li>Tamilarasan - 6382160951</li>
+                  <li></li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

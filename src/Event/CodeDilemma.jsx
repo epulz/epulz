@@ -77,6 +77,7 @@ const CodeDilemma = () => {
                 <ul role="list" className="card__bullets flow">
                   <li>Vishnu Dharshan N- 9597767721</li>
                   <li>Manoharan J R - 9487375373</li>
+                  <li>Nithin - 6381404807</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

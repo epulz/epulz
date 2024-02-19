@@ -95,6 +95,7 @@ const Mind = () => {
                 <ul role="list" className="card__bullets flow">
                   <li>Dinesh R - 7904873545</li>
                   <li>Saran Kumar S - 8248149420</li>
+                  <li>Dilip Kumar R - 9843150807</li>
                   <li>Shalini</li>
                   <li>Bhargavi</li>
                   <li>Kalaivani</li>

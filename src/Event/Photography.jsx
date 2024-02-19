@@ -85,6 +85,7 @@ const Photography = () => {
                 <ul role="list" className="card__bullets flow">
                   <li>Santhosh - 6383880199</li>
                   <li>Bharath - 9626915526</li>
+                  <li>Tamilselvan - 6380760796</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events

@@ -83,6 +83,7 @@ const Project = () => {
                 <ul role="list" className="card__bullets flow">
                   <li>Manoharan J R - 9487375373</li>
                   <li>Mohan P - 8248864258</li>
+                  <li>Vetha Varma - 7904153062</li>
                 </ul>
                 <Link to="/epulz/events" className="card__cta cta">
                   Other Events
