@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/epulz/static/css/main.da5cfdec.css",
-    "main.js": "/epulz/static/js/main.003adac8.js",
+    "main.js": "/epulz/static/js/main.ece8af06.js",
     "static/css/240.be30a726.chunk.css": "/epulz/static/css/240.be30a726.chunk.css",
     "static/js/240.3fe36c3d.chunk.js": "/epulz/static/js/240.3fe36c3d.chunk.js",
-    "static/css/968.59718434.chunk.css": "/epulz/static/css/968.59718434.chunk.css",
-    "static/js/968.76a6a05b.chunk.js": "/epulz/static/js/968.76a6a05b.chunk.js",
+    "static/css/540.2b08571a.chunk.css": "/epulz/static/css/540.2b08571a.chunk.css",
+    "static/js/540.47083374.chunk.js": "/epulz/static/js/540.47083374.chunk.js",
     "static/css/600.b1bc83b7.chunk.css": "/epulz/static/css/600.b1bc83b7.chunk.css",
     "static/js/600.c8c5fe46.chunk.js": "/epulz/static/js/600.c8c5fe46.chunk.js",
     "static/css/900.609a8250.chunk.css": "/epulz/static/css/900.609a8250.chunk.css",
@@ -22,7 +22,7 @@
     "static/js/456.63e7f9f2.chunk.js": "/epulz/static/js/456.63e7f9f2.chunk.js",
     "static/css/936.609a8250.chunk.css": "/epulz/static/css/936.609a8250.chunk.css",
     "static/js/936.f1cb302f.chunk.js": "/epulz/static/js/936.f1cb302f.chunk.js",
-    "static/css/904.72723e51.chunk.css": "/epulz/static/css/904.72723e51.chunk.css",
+    "static/css/904.157468b6.chunk.css": "/epulz/static/css/904.157468b6.chunk.css",
     "static/js/904.635c7ff0.chunk.js": "/epulz/static/js/904.635c7ff0.chunk.js",
     "static/css/956.2a6eac0a.chunk.css": "/epulz/static/css/956.2a6eac0a.chunk.css",
     "static/js/956.d85a04b8.chunk.js": "/epulz/static/js/956.d85a04b8.chunk.js",
@@ -52,14 +52,13 @@
     "static/media/market.jpg": "/epulz/static/media/market.19cb16240f46dfa52b10.jpg",
     "static/media/dr.jpeg": "/epulz/static/media/dr.fd3855020cd2b68f4e49.jpeg",
     "static/media/cap.jpg": "/epulz/static/media/cap.ed2f70819298497e953f.jpg",
-    "static/media/iron.jpeg": "/epulz/static/media/iron.e8d0f6e7a35a0507c959.jpeg",
     "index.html": "/epulz/index.html",
     "main.da5cfdec.css.map": "/epulz/static/css/main.da5cfdec.css.map",
-    "main.003adac8.js.map": "/epulz/static/js/main.003adac8.js.map",
+    "main.ece8af06.js.map": "/epulz/static/js/main.ece8af06.js.map",
     "240.be30a726.chunk.css.map": "/epulz/static/css/240.be30a726.chunk.css.map",
     "240.3fe36c3d.chunk.js.map": "/epulz/static/js/240.3fe36c3d.chunk.js.map",
-    "968.59718434.chunk.css.map": "/epulz/static/css/968.59718434.chunk.css.map",
-    "968.76a6a05b.chunk.js.map": "/epulz/static/js/968.76a6a05b.chunk.js.map",
+    "540.2b08571a.chunk.css.map": "/epulz/static/css/540.2b08571a.chunk.css.map",
+    "540.47083374.chunk.js.map": "/epulz/static/js/540.47083374.chunk.js.map",
     "600.b1bc83b7.chunk.css.map": "/epulz/static/css/600.b1bc83b7.chunk.css.map",
     "600.c8c5fe46.chunk.js.map": "/epulz/static/js/600.c8c5fe46.chunk.js.map",
     "900.609a8250.chunk.css.map": "/epulz/static/css/900.609a8250.chunk.css.map",
@@ -76,7 +75,7 @@
     "456.63e7f9f2.chunk.js.map": "/epulz/static/js/456.63e7f9f2.chunk.js.map",
     "936.609a8250.chunk.css.map": "/epulz/static/css/936.609a8250.chunk.css.map",
     "936.f1cb302f.chunk.js.map": "/epulz/static/js/936.f1cb302f.chunk.js.map",
-    "904.72723e51.chunk.css.map": "/epulz/static/css/904.72723e51.chunk.css.map",
+    "904.157468b6.chunk.css.map": "/epulz/static/css/904.157468b6.chunk.css.map",
     "904.635c7ff0.chunk.js.map": "/epulz/static/js/904.635c7ff0.chunk.js.map",
     "956.2a6eac0a.chunk.css.map": "/epulz/static/css/956.2a6eac0a.chunk.css.map",
     "956.d85a04b8.chunk.js.map": "/epulz/static/js/956.d85a04b8.chunk.js.map",
@@ -84,6 +83,6 @@
   },
   "entrypoints": [
     "static/css/main.da5cfdec.css",
-    "static/js/main.003adac8.js"
+    "static/js/main.ece8af06.js"
   ]
 }
