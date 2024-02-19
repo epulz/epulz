@@ -73,8 +73,8 @@ const Mind = () => {
                     = 6 teams will get prize)
                   </li>
                   <li>
-                    Prizes will be given for winner as ₹1500, first runner as
-                    ₹1000 and second runner as ₹500
+                    Prizes will be given for winner as Rs.1500, first runner as
+                    Rs.1000 and second runner as Rs.500
                   </li>
                 </ul>
                 <a
