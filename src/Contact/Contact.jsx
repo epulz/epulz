@@ -15,7 +15,7 @@ const Contact = () => {
               <h1>Address</h1>
               <p>
                 Thanthai Periyar Government Institute <br />
-                Of Technology,Bagayam,Vellore-02
+                Of Technology, Bagayam, Vellore - 632002
               </p>
               <p />
             </div>
@@ -25,7 +25,7 @@ const Contact = () => {
               <i className="ri-phone-fill" />
             </span>
             <div id="value">
-              <h1>Phone - Helpdesk</h1>
+              <h1>Phone - Coordinators</h1>
               <p>Sujith Barathi - 8610395558</p>
               <p>Jeevanantham - 6379298842</p>
               <p>Vishnu Dharshan - 9597767721</p>
