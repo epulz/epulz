@@ -138,8 +138,24 @@ const Navigation = () => {
                   </a>
                 </li>
               </Link>
+              <Link to="/epulz/souvneir" onClick={closeOffcanvas}>
+                <li
+                  className="nav-item"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <a
+                    className="nav-link active mx-4"
+                    aria-current="page"
+                    href="#"
+                    onClick={closeOffcanvas}
+                  >
+                    Souvneir
+                  </a>
+                </li>
+              </Link>
             </ul>
-            <form className="d-flex justify-content-center align-items-center mt-3">
+            {/* <form className="d-flex justify-content-center align-items-center mt-3">
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
                 style={{ textDecoration: "none" }}
@@ -162,7 +178,7 @@ const Navigation = () => {
                   </div>
                 </button>
               </a>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

@@ -91,6 +91,13 @@ const Footer = () => {
                     </a>
                   </li>
                 </Link>
+                <Link to="/epulz/souvneir">
+                  <li className="footer-list-item">
+                    <a href="#" className="footer-list-link">
+                      Souvneir
+                    </a>
+                  </li>
+                </Link>
               </ul>
             </div>
             <div className="col-lg-4 my-3">

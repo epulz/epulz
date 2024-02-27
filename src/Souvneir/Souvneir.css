@@ -1,0 +1,447 @@
+/* Hero Section */
+
+#hero-souvneir {
+  max-width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding: 0 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero-souvneir #backVideo-souvneir {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#content-souvneir {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.souvneir-title {
+  font-size: 8rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Protest Strike", sans-serif;
+  letter-spacing: 0.7rem;
+  animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+  0%,
+  80% {
+    text-shadow: -7px -7px #8a2be2;
+  }
+  20%,
+  100% {
+    text-shadow: 7px -7px #8a2be2;
+  }
+  40%,
+  60% {
+    text-shadow: -7px 7px #8a2be2;
+  }
+}
+
+/* button */
+
+#hero-souvneir .btn-souvneir {
+  display: flex;
+  justify-content: center;
+  --color-text: #ffffff;
+  --color-background: #8a2be2;
+  --color-outline: #340064;
+  --color-shadow: #00000080;
+  cursor: pointer;
+}
+
+.btn-content-souvneir {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 2em;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-outline);
+}
+
+.btn-content-souvneir:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-outline);
+}
+
+.btn-content-souvneir .icon-arrow-souvneir {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content-souvneir .icon-arrow-souvneir {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow-souvneir {
+  width: 10px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+
+/* SVG */
+#arrow-icon-one-souvneir {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two-souvneir {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content-souvneir #arrow-icon-three-souvneir {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content-souvneir #arrow-icon-one-souvneir {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content-souvneir #arrow-icon-two-souvneir {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+.btn-content-souvneir:hover {
+  transition: 0.5s;
+  background: var(--color-outline);
+  color: var(--color-background);
+}
+
+/* SVG animations */
+@keyframes color_anim {
+  0% {
+    fill: white;
+  }
+
+  50% {
+    fill: var(--color-background);
+  }
+
+  100% {
+    fill: white;
+  }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-outline);
+    outline-offset: 0;
+  }
+}
+
+@keyframes btn-content {
+  0% {
+    outline: 0.2em solid var(--color-outline);
+    outline-offset: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero-souvneir {
+    max-width: 100%;
+    height: 100vh;
+  }
+
+  .souvneir-title {
+    font-size: 3.5rem;
+  }
+
+  .btn-content-souvneir {
+    font-size: 1.2rem;
+  }
+}
+
+/* Chief Guest */
+
+#chief-guest {
+  background-color: #000;
+  max-width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+#chief-guest-heading {
+  color: #fff;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Protest Strike", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: 50px;
+  text-shadow: 0 0 20px rgb(172, 9, 172), 0 0 10px rgb(172, 9, 172),
+    0 0 20px rgb(172, 9, 172), 0 0 40px rgb(172, 9, 172);
+}
+
+#chief-guest .chief-guest-content {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#chief-guest .chief-guest-content .chief-guest-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+#chief-guest .chief-guest-content .chief-guest-box .chief-guest-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 10% 10%;
+  border: 3px solid purple;
+  padding: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+#chief-guest .chief-guest-content .chief-guest-box .chief-guest-details {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#chief-guest
+  .chief-guest-content
+  .chief-guest-box
+  .chief-guest-details
+  .h2-chief-guest {
+  color: purple;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.p-chief-guest {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+#chief-guest .chief-guest-content .chief-guest-box:hover {
+  transform: scale(1.1);
+}
+#chief-guest .chief-guest-content .chief-guest-box .chief-guest-img:hover {
+  border: 3px dotted purple;
+}
+
+@media screen and (max-width: 768px) {
+  #chief-guest {
+    max-width: 100%;
+    height: 80vh;
+  }
+
+  #chief-guest-heading {
+    margin-top: 25%;
+    font-size: 40px;
+  }
+
+  #chief-guest .chief-guest-content {
+    flex-direction: column;
+  }
+
+  #chief-guest .chief-guest-content .chief-guest-box {
+    margin-top: 20px;
+  }
+
+  #chief-guest .chief-guest-content .chief-guest-box .chief-guest-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #chief-guest .chief-guest-content .chief-guest-box .chief-guest-details {
+    margin-top: 5px;
+  }
+
+  #chief-guest
+    .chief-guest-content
+    .chief-guest-box
+    .chief-guest-details
+    .h2-chief-guest {
+    font-size: 1rem;
+  }
+
+  .p-chief-guest {
+    font-size: 0.8rem;
+  }
+
+  #chief-guest .chief-guest-content .chief-guest-box:hover {
+    transform: scale(1.05);
+  }
+
+  #chief-guest .chief-guest-content .chief-guest-box .chief-guest-img:hover {
+    border: 3px dotted purple;
+  }
+}
+
+/* Cover Letter */
+
+#cover-letter {
+  background-color: #000;
+  max-width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+#cover-letter-heading {
+  color: #fff;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Protest Strike", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: 50px;
+  text-shadow: 0 0 20px rgb(172, 9, 172), 0 0 10px rgb(172, 9, 172),
+    0 0 20px rgb(172, 9, 172), 0 0 40px rgb(172, 9, 172);
+}
+
+#cover-letter .cover-letter-content {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#cover-letter-img-container {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  border: 7px solid purple;
+  box-shadow: 0 0 10px 2px #a515d9;
+  animation: glow 1s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px 2px #a515d9;
+  }
+  50% {
+    box-shadow: 0 0 20px 4px #a515d9;
+  }
+  100% {
+    box-shadow: 0 0 10px 2px #a515d9;
+  }
+}
+
+#cover-letter-img-container .cover-letter-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+#cover-letter-para {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#cover-letter .cover-letter-content #cover-letter-img:hover {
+  border: 3px dotted purple;
+}
+
+#cover-letter-btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: 2px solid purple;
+  transition: all 0.3s ease-in-out;
+}
+
+#cover-letter-btn:hover {
+  background-color: purple;
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px 2px #a515d9;
+  color: white;
+  border: 2px solid purple;
+}
+
+@media screen and (max-width: 768px) {
+  #cover-letter {
+    height: 100%;
+    padding-bottom: 25%;
+  }
+
+  #cover-letter-heading {
+    font-size: 30px;
+  }
+
+  #cover-letter-img-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  #cover-letter-para {
+    font-size: 1rem;
+  }
+
+  #cover-letter-btn {
+    font-size: 1.2rem;
+  }
+}
