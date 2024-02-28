@@ -5,6 +5,7 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "./Hero.css";
 import circuit from "../assets/Hero/circuit.mp4";
+import { Link } from "react-router-dom";
 
 function Hero() {
   const h1Ref = useRef(null);
@@ -38,12 +39,8 @@ function Hero() {
           <h1 ref={h1Ref} id="typed-letters"></h1>
         </div>
         <div class="btn-conteiner mt-3">
-          <a
-            class="btn-content"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdKmxqrnh2SI2odNGcbtgP0yij6TFQ6UBzchg8pCfsQZGYZLQ/viewform?usp=sf_link"
-            target="_blank"
-          >
-            <span class="btn-title">REGISTER</span>
+          <Link to="/epulz/souvneir" class="btn-content">
+            <span class="btn-title">SOUVNEIR</span>
             <span class="icon-arrow">
               <svg
                 width="66px"
@@ -78,7 +75,7 @@ function Hero() {
                 </g>
               </svg>
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
